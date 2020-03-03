@@ -1,35 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700'); */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700');
 /*----------------------------------------------------Colors*/
-
 
 /*----------------------------------------------------Navbar*/
 
-.navbar {
-    margin-bottom: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    background-color: transparent;
-    border: 0;
-}
-
-.navbar-default .nav-text>a,
-.navbar-default .nav-text>a:focus,
-.navbar-default .nav-text>a:hover {
-    color: white;
-    background: transparent;
-}
-
-.navbar-header {
-    padding-bottom: 40px;
-}
-
 /*----------------------------------------------------Containers*/
 
-.callout-container {
+/*.callout-container {
     height: 100vh;
     
     background: url('../images/themonkees2.jpg') no-repeat center center fixed; 
@@ -43,8 +21,56 @@
   justify-content: center;
   
   position: relative;
+}*/
+
+.callout-container-music {
+    align-items: center;
+
+    background: url('../images/themonkees-bandset.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+
 }
 
+
+.callout-container-video {
+    height: 100vh;
+
+    background: url('../images/themonkeeshead.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.callout-container-events-and-bookings {
+    height: 100vh;
+
+    background: url('../images/themonkees-playing.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
 
 .opaque-overlay {
     position: absolute;
@@ -61,11 +87,16 @@
 }
 
 .container-wrapper {
-    
+    background-color: #fafafa;
 }
 
 .container-wrapper--orange {
-     background-color: #f05f40;
+    background-color: #f05f40;
+    color: white;
+}
+
+.container-wrapper--grey {
+    background-color: #8f8f8f;
     color: white;
 }
 
@@ -79,20 +110,27 @@
 .jumbotron h1 {
     color: white;
     font-weight: bold;
-   margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 
 .jumbotron .lead {
-    color: white;
     margin: 25px 0;
+    font-family: Roboto, "sans-serif", "arial";
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    /*color: #d0d0d0; (off white #fafafa) */
 }
 
 
-.jumbotron small{
+.jumbotron small {
     font-size: 100%;
     font-style: italic;
-    color: #d0d0d0;
+    color: white;
 }
 
 /*----------------------------------------------------Block-divider*/
@@ -101,10 +139,6 @@
     width: 120px;
     height: 5px;
     border: 0;
-}
-
-.block-divider--orange {
-    background-color: #f05f40;
 }
 
 .block-divider--short {
@@ -117,6 +151,11 @@
     background-color: white;
 }
 
+.block-divider--long-orange {
+    width: 50px;
+    background-color: #f05f40;
+}
+
 
 
 /*----------------------------------------------------Buttons*/
@@ -125,37 +164,41 @@
     font-weight: bold;
     border-radius: 23px;
     width: 160px;
-    
+}
+
+.btn-follow {
+    margin-top: 30px;
 }
 
 .btn--red {
     color: white;
     background-color: #f05f40;
-    border-color: #f05f40; 
+    border-color: #f05f40;
 }
 
-.btn--green {
-    color: white;
-    background-color: green;
-    border-color: green; 
-}
-
-.btn--red:hover, 
+.btn--red:hover,
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
     background-color: #df4929;
     border-color: #df4929;
-    color: white; 
+    color: white;
 }
 
-.btn--green:hover, 
+.btn--green {
+    color: white;
+    background-color: green;
+    border-color: green;
+
+}
+
+.btn--green:hover,
 .btn--green:active,
 .btn--green:focus,
 .btn--green:active:focus {
-    background-color: grey;
-    border-color: grey;
-    color: white; 
+    background-color: #006400;
+    border-color: #0064009;
+    color: white;
 }
 
 /*----------------------------------------------------Landing Page Headers*/
@@ -192,9 +235,6 @@
 
 /*----------------------------------------------------Landing Page Headers*/
 
-
-
-
 /*----------------------------------------------------About-Container*/
 
 .about {
@@ -211,12 +251,6 @@
 }
 
 /*----------------------------------------------------Video-Container*/
-
-
-.(dont use) wrapper {
-    margin:0 auto;
-    width: 1000px;
-}
 
 .videowrapper {
     position: relative;
@@ -241,16 +275,6 @@
     text-align: center;
 }
 
-/*----------------------------------------------------Tourdates-Container*/
-
-.tourdate-details {
-    text-align: center;
-}
-
-.tourdate-clickhere {
-    text-align: center;
-}
-
 
 /*----------------------------------------------------Footer-Container*/
 
@@ -262,11 +286,642 @@
     text-align: center;
 }
 
-.social-sign-up { 
+.form-group {
+    margin-top: 30px;
+}
+
+.social-sign-up {
+    text-align: center;
+}
+
+.social-links {
+    padding-bottom: 15px;
+
+}
+
+.social-links li a i {
+    width: 42px;
+    height: 42px;
+    padding: 18px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #BDBD0A;
+}
+
+/*----------------------------------------------------Modal form-group {
+    color: #f8f8ff;
+} #f05f40*/
+
+/*----------------------------------------------------Video page*/
+
+.landing-container {
+    width: 100%;
+    height: 700px;
+    background: url('../images/themonkees2edit1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.header-container {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0px 10px;
+}
+
+.header-logo {
+    background: url('../images/themonkeeslogo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 220px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.header-logo {
+    cursor: pointer;
+}
+
+/*.header-logo {*/
+
+/*background: url('../images/themonkeeslogo.jpg');*/
+
+/*background-position: center;*/
+
+/*background-repeat: no-repeat;*/
+
+/*background-size: cover;*/
+
+/*height: 100%;*/
+
+/*width: 220px;*/
+
+/*border-radius: 30px;*/
+
+/*margin-right: 10px;*/
+
+.header-item-container {
+    display: flex;
+    width: 100%;
+
+}
+
+.header-item {
+    height: 100%;
+    width: 200px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: white;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.header-item:hover,
+.header-item:active,
+.header-item:focus,
+.header-item:active:focus {
+    background-color: #FBE945;
+    border-color: #FBE945;
+    transition: 0.2s;
+
+}
+
+.header-item a {
+    font-family: Roboto, "sans-serif", "arial";
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #FF0000;
+}
+
+
+.jumob-container {
+    width: 70%;
+    height: 300px;
+    background-color: #BDBD0A;
+}
+
+.header-social {
+    padding-top: 22px;
+}
+
+.header-social h5 {
+    font-family: Roboto, "sans-serif", "arial";
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+/*----------------------------------------------------text*/
+
+.text {
+    font-family: sans-serif, "arial";
+    Font-size: 20px;
+    text-align: center;
+}
+
+/*----------------------------------------------------About section*/
+
+.tourdate-clickhere-container {
+    margin-top: 80px;
+
+}
+
+.tourdate-clickhere-item {
+    text-align: center;
+}
+
+/*----------------------------------------------------Tour Dates section*/
+
+.tour-dates-container-wrapper {
+    background-color: #fafafa;
+}
+
+.tour-dates-container {
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 75px;
+}
+
+
+.tour-dates-header-container {
+    width: 100%;
+    height: auto;
+
+}
+
+.tour-dates-header-item {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+
+.tour-dates-info-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+    flex-flow: wrap;
+    /*padding: 10px 50px 10px 50px;*/
+    align-items: stretch;
+}
+
+.tour-dates-info-item {
+    width: 350px;
+    height: 80px;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 60px;
+}
+
+.tour-dates-info-item {
+    padding-bottom: 50px;
+}
+
+.tour-dates-info-item {
+    text-align: center;
+}
+
+.tourdate-details {
+    text-align: center;
+}
+
+.tourdate-clickhere {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .tour-dates-info-container .tour-dates-info-item button {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .tour-dates-info-container .tour-dates-info-item button {
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .tour-dates-info-container .tour-dates-info-item button {
+        margin-top: 70px;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 264px) {
+
+    .tour-dates-info-container .tour-dates-info-item button {
+        margin-top: 90px;
+        margin-bottom: 100px;
+    }
+}
+
+
+/*----------------------------------------------------News page*/
+
+.news-landing-container {
+    background: url('../images/themonkees-tea-break.png') no-repeat fixed;
+    width: 100%;
+    height: 700px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*.news-landing-cover-container {
+    height: 100vh;
+    background: url('../images/themonkees-tea-break.png') no-repeat fixed;
+     background-size: cover;
+} */
+
+.opaque-overlay {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    height: 700px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container-wrapper--newsgrey {
+    background-color: #8f8f8f;
+    color: white;
+}
+
+.news-container {
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 75px;
+    background-color: transparent;
+}
+
+.news-header-container {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 20px
+}
+
+.news-header-item {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+/* .news-image {
+    background: url('../assets/images/themonkees-farm.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 220px;
+    border-radius: 30px;
+    margin-right: 10px;
+} */
+
+.news-item-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 60px;
+    padding-bottom: 75px;
+    background-color: transparent;
+
+
+    /*width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10px 0px 10px; */
+}
+
+.news-item-image {
+    height: 100%;
+    width: auto;
+    padding: 0px 0px 0px 0px;
+}
+
+#tour-image {
+    background-image: url('../images/themonkees-tour.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 400px;
+    width: 600px;
+}
+
+#micky-podcast {
+    background-image: url('../images/themonkees-podcast.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 500px;
+    width: 500px;
+}
+
+#micky-podcast-2 {
+    background-image: url('../images/themonkees-podcast-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 500px;
+    width: 500px;
+}
+
+#micky-podcast-3 {
+    background-image: url('../images/themonkees-podcast-3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 500px;
+    width: 500px;
+}
+
+#show-image {
+    background-image: url('../images/themonkees-show.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 600px;
+    width: 1000px;
+}
+
+#comic-image {
+    background-image: url('../images/themonkees-comic.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 600px;
+    width: 550px;
+}
+
+.news-item {
+    height: 100%;
+    width: auto;
+    text-align: center;
+    padding: 5px 0px 25px 0px;
+}
+
+.news-button {
     text-align: center;
 }
 
 
 
 
+/*----------------------------------------------------Listening page*/
 
+.listen-landing-container {
+    background: url('../images/themonkees-bandset.jpg') no-repeat fixed;
+    width: 100%;
+    height: 700px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.listen-container {
+    padding-top: 60px;
+    padding-bottom: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.listen-header-contaner {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.listen-picture-container {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.listen-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.listen-text {
+    font-family: sans-serif, "arial";
+    Font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.audio-player-container {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.audio {
+    align-self: center;
+    width: auto;
+}
+
+
+/*----------------------------------------------------VIDEO page*/
+
+.video-landing-container {
+    background: url('../images/themonkeeshead.jpg') no-repeat fixed;
+    width: 100%;
+    height: 700px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*----------------------------------------------------Booking page*/
+
+.bookings-landing-container {
+    background: url('../images/themonkees-playing.jpg') no-repeat fixed;
+    width: 100%;
+    height: 700px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+/*----------------------------------------------------Burger-menu-icon*/
+
+.menu {
+    margin: 0 30px 0 0;
+}
+
+
+.menu a:hover,
+.menu a:active,
+.menu a:focus,
+.menu a:active:focus {
+    background-color: #CACA0B;
+    border-color: #FBE945;
+}
+
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+
+
+label {
+    margin: 5px 40px 0 0;
+    font-size: 30px;
+    line-height: 60px;
+    display: none;
+    width: 50px;
+    float: right;
+    color: #f05f40;
+    border-radius: 30px;
+    background-color: white;
+    opacity: 0.7;
+    text-align: center;
+}
+
+label:hover,
+label:active,
+label:focus,
+label:active:focus {
+    background-color: #FBE945;
+    border-color: #FBE945;
+}
+
+#toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+
+    label {
+        display: block;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+        border-bottom: 5px solid #f05f40;
+        margin: 10px, 10px, 10px, 10px;
+        background-color: #8f8f8f;
+        opacity: 0.95;
+        transition: 0.5s;
+    }
+
+    #toggle:checked+.menu {
+        display: block;
+    }
+}
+
+.navbar-inverse {
+    background-color: transparent;
+    border-color: #f05f40;
+}
+
+.navbar-fixed-top {
+    position: fixed;
+}
+
+
+
+/*----------------------------------------------------Navbar active white setting */
+
+.active {
+    opacity: 1;
+}
+
+.media-object {
+    padding-right: 60px;
+    padding-bottom: 40px;
+}
+
+/*----------------------------------------------------Break points/Responsive design */
