@@ -1,9 +1,11 @@
     Milestone project: The Monkees
-One or two paragraphs providing an overview of your project.
-Essentially, this part is your sales pitch.
-In my project I have created a stylish, user-friendly, responsive-design orientated and frontend –only website for a 1960’s rock band called “The Monkees”. The website I have created for this band was influenced by bold colours and fashion of the 1960’s, however with a clean cut modern look. Giving this website all the iconic nostalgia of the Monkees that fans adore but all the practical modern functionality that they love too, provoking a positive emotional response from users every time they visit the site.    
-The website is made up of 5 pages, each unique and providing a convenient service to the user while being consistent in design, practicality and the required specifications of the client. Each page greets you with the recognisable Monkees guitar logo as the home button on an easy to use navigation bar. As the user explores all the content on the website they will be greeted by classic pictures of the band upon loading each page, marking that page as different to the others in its function.  This website respects the past pop-culture of the Monkees bit giving the band all the modern functionality to remain current. This website fulfils the current needs of the Monkees, for example, having “sign up and subscribe” forms and social media tabs. Ensuring the band can maintain their communication with fans old and new. 
+    
+In my project I have created a stylish, user-friendly, responsive-design orientated and frontend –only website for a 1960’s rock band called “The Monkees”. The website I have created for this band was influenced by bold colours and fashion of the 1960’s, however with a clean cut modern look. Giving this website all the iconic nostalgia of the Monkees that fans adore but all the practical modern functionality that they love too, provoking a positive emotional response from users every time they visit the site.
+
+The website is made up of 5 pages, each unique and providing a convenient service to the user while being consistent in design, practicality and the required specifications of the client. Each page greets you with the recognisable Monkees guitar logo as the home button on an easy to use navigation bar. As the user explores all the content on the website they will be greeted by classic pictures of the band upon loading each page, marking that page as different to the others in its function.  This website respects the past pop-culture of the Monkees bit giving the band all the modern functionality to remain current. This website fulfils the current needs of the Monkees, for example, having “sign up and subscribe” forms and social media tabs. Ensuring the band can maintain their communication with fans old and new.
+
 Its Pages display welcoming images of the band, as the “Home” page that gives a clear overview of the website and easy to navigate navbar for users to switch between pages. “News” page where fans can find out all the latest updates from the Monkees. “Listen” page where uses can hear recent podcasts and guest stars of the Monkees, listening to all the behind the scenes stories and experiences of the band. Watch and listen to the best music videos produced by the Monkees on “Music video” page, where users can stream their catalogue of music. Finally the site has “events and bookings” page where enquiries into private bookings can be made not to mention upcoming tour dates and ticket purchasing. 
+
 UX (User Experience)
 The purpose of this project was to create a static website (front-end only) for a 1960’s rock band who are still touring and performing live music today at numerous events and venues around the world. The target audience for this created website are fans, old and new of The Monkees, fans who want to see music videos and listen to podcasts from their back catalogue, find out latest news, see tour dates and make bookings, along with any new material. 
 To make sure the target audience accomplished these things when visiting my website, I implemented the following: 
@@ -18,11 +20,13 @@ If you have noticed I have been particular about the colour scheme of the websit
 Wireframe Mockups
 These can be found in the README Folder, pictures are located in the folder labelled at Wire-Frames. 
 Features
+
 Home page:  
 •	Scrollable Cover style landing page, this simple but beautiful design takes up the whole screen to welcome the user with large bold header “The Monkees”. They can use the nav-bar to search for what they are looking for or scroll down to move the cover image out the way and explore the page. 
 •	Sample music video - allows users to listen to iconic Monkees song.
 •	“About Us” section with button that takes users to Events & Bookings page.
 •	Tour dates- This has an inactive buy tickets button, which if back end was implemented could take user through to payment transactions. 
+
 News page: 
 •	Scrollable Cover style landing page, this simple but beautiful design that takes up the whole screen to welcome the user with the title “News”. They can use the nav-bar to search for what they are looking for or scroll down to move the cover image out the way and explore the page. 
 •	About Us section with button that takes users to Events & Bookings page.
@@ -42,10 +46,12 @@ Music videos:
 •	About Us section with button that takes users to Events & Bookings page.
 •	Music Videos - This allows the user to watch and get a feel of The Monkees in action. Able to scroll down the page and stream the music and watch videos. 
 •	Each Music video container consists of a music video from their catalogue, which are some of the Monkees greatest hits. Along with some information regarding the songs. 
+
 Events and bookings: 
 •	Scrollable Cover style landing page, this simple but beautiful design takes up the whole screen to welcome the user with the title “Events & Bookings”. They can use the nav-bar to search for what they are looking for or scroll down to move the cover image out the way and explore the page. 
 •	Contact Us Submission form- This allows users to send messages to the site with any questions they may have or booking requests for the band. 
 •	Events and tour dates container- This allows users to see all the upcoming tour dates of the monkees and the potential opportunity to buy tickets. 
+
 All Pages: 
 •	Sign up Button- send a drop down box for the user to complete by inputting their name and email address. This will allow the user to receive news and updates. 
 •	Follow and subscribe- Users to enter their name and email address to receive news and updates. 
@@ -59,6 +65,7 @@ Technologies Used
 •	Google fonts – Access to a library of 977 free licensed font families to use.
 •	JQuery - This was used to add read more buttons within some of the pages and also used for the back to top button to add a smooth scroll and fade
 •	Font Awesome - Gives me scalable vector icons that can instantly be customized.
+
 Testing
 I have thoroughly tested this website and was unable to find any broken links within it. I have also tried the button functionality on contact forms and buttons which all work, only needing the back end to be completed. 
 Devices Used:
@@ -76,6 +83,7 @@ Browsers Used:
 •	Firefox
 •	Microsoft Edge
 •	Safari
+
 Issues and bugs:
 I had a major issue the nav-bar repositioning for different responsive design sizes on some devices; however this has since been rectified through research along with trial and error. However when using my hamburger Icon this works well on most platforms, however when testing in chrome tools the hamburger icon doesn’t show up for some XS to SM devices in the “News” and “Listen” page of the website. Although it’s worth mentioning that none of these errors show up when changing the screen size manually from large to extra small in Chrome tools when in inspection mode.  Positioning of some images on these two pages when breaking down to mobile devices can be focused, causing some loss picture quality, cutting images off in news page and listen page. However like mentioned earlier when altering the screen size manually when in inspection mode from large to extra small these bugs don’t show up. Only when in inspection mode and extra small screen device is selected in toggle device toolbar. 
 
@@ -116,6 +124,7 @@ Valleri- https://www.youtube.com/watch?v=QWTa9CE51sA
 Pleasant Valley Sunday- https://www.youtube.com/watch?v=klU01gYb6F0
 Daily Nightly-https://www.youtube.com/watch?v=SCWRjWOowkc
 Monkees podcasts with Rhino podcasts- These can be found on the Monkees official website https://www.monkees.com/listen
+
 Acknowledgements
 •	Stackoverflow- This was useful in helping me in getting two divs side by side. https://stackoverflow.com/questions/5387392/how-to-get-these-two-divs-side-by-side
 •	CSS-Tricks- This was useful when I was creating containers and trying to use felxbox effectively. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
