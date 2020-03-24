@@ -585,8 +585,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
-    height: 400px;
-    width: 600px;
+    height: auto;
+    width: 100%;
 }
 
 #micky-podcast {
@@ -595,7 +595,7 @@
     background-position: center;
     background-size: auto;
     height: 500px;
-    width: 500px;
+    width: 320px;
 }
 
 #micky-podcast-2 {
@@ -604,7 +604,7 @@
     background-position: center;
     background-size: auto;
     height: 500px;
-    width: 500px;
+    width: 320px;
 }
 
 #micky-podcast-3 {
@@ -613,7 +613,7 @@
     background-position: center;
     background-size: auto;
     height: 500px;
-    width: 500px;
+    width: 320px;
 }
 
 #show-image {
@@ -621,8 +621,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
-    height: 600px;
-    width: 1000px;
+    height: 500px;
+    width: 320px;
 }
 
 #comic-image {
@@ -630,8 +630,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
-    height: 600px;
-    width: 550px;
+    height: 500px;
+    width: 320px;
 }
 
 .news-item {
