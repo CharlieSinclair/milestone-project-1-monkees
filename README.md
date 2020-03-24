@@ -15,11 +15,17 @@ The purpose of this project was to create a static website (front-end only) for 
 To make sure the target audience accomplished these things when visiting my website, I implemented the following: 
 
 - Home page: Providing an overview of the whole website for visitors, links to social media presence, brief “about us” section, well know nostalgic video and short list of upcoming dates with link to events and bookings. 
+
 - Sign up form on every page: Button located on every page in the header with follow and subscribe in the footer, idea being fans will stay updated with all news and updates of upcoming events. 
+ 
 - News page: All the latest news about the band and its members for fans to read up on and remain informed. 
+
 - Listen page: This is a collection of podcasts staring the The Monkees and some special guests. 
+
 - Music Video page: Full videos where fans can watch and listen to the most iconic Monkees songs from their catalogue. 
+
 - Events and Bookings page: Where fans can see current and upcoming tour dates and make requests for bookings. 
+
 - Social media links: For users to follow to stay up to date with any news the band may have.
 
 If you have noticed I have been particular about the colour scheme of the website, I wanted it to match the colours used by the band. Another detail is a unique image of the band on each page relating to that page. The use of logos and images throughout the website is to provoke a positive emotional response from its users, giving a good overall experience and being easy on the eye. 
@@ -31,7 +37,12 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 pip install foobar
 ```
 
-## Usage
+## Wireframe Mock-ups
+
+These can be found in the README Folder, pictures are located in the folder labelled at Wire-Frames. 
+
+Follow link below: 
+[https://github.com/CharlieSinclair/milestone-project-1-monkees/tree/master/README%20Folder/Wire-frames]
 
 ```python
 import foobar
