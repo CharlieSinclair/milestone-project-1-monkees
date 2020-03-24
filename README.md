@@ -135,5 +135,36 @@ foobar.singularize('phenomena') # returns 'phenomenon'
 - Font Awesome - Gives me scalable vector icons that can instantly be customized.
 
 
+## Testing
+
+I have thoroughly tested this website and was unable to find any broken links within it. I have also tried the button functionality on contact forms and buttons which all work, only needing the back end to be completed. 
+
+### Devices Used:
+
+- Samsung Galaxy S5
+- Google Pixel 2
+- Google Pixel 2 XL
+- Apple I phone 5/SE
+- Apple I phone 6/7/8
+- Apple I phone 6/7/8 Plus
+- Apple I phone X
+- Apple I pad
+- Apple I pad pro
+
+### Browsers Used:
+
+- Chrome
+- Firefox
+- Microsoft Edge
+- Safari
+
+
+## Issues/Bugs:
+
+I had a major issue with the nav-bar repositioning for different responsive design sizes on some devices; however this has since been rectified through research along with trial and error. However when using my hamburger Icon this works well on most platforms, however when testing in chrome tools the hamburger icon doesn’t show up for some XS to SM devices in the “News” and “Listen” page of the website. Although it’s worth mentioning that none of these errors show up when changing the screen size manually from large to extra small in Chrome tools when in inspection mode.  Positioning of some images on these two pages when breaking down to mobile devices can be focused, causing some loss picture quality, cutting images off in news page and listen page. However like mentioned earlier when altering the screen size manually when in inspection mode from large to extra small these bugs don’t show up. Only when in inspection mode and extra small screen device is selected in toggle device toolbar. 
+
+To concluder there is one bug that I was unable to resolve, being the hamburger icon pushed to the far right hand side of the screen only on news and listen webpage. This only happens when viewed in extra small or small devices.  This is something I will look to resolve and fix in the future.  
+
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
