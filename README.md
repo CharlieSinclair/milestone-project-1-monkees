@@ -166,5 +166,38 @@ I had a major issue with the nav-bar repositioning for different responsive desi
 To concluder there is one bug that I was unable to resolve, being the hamburger icon pushed to the far right hand side of the screen only on news and listen webpage. This only happens when viewed in extra small or small devices.  This is something I will look to resolve and fix in the future.  
 
 
+## Validation
+
+All HTML files passed validation testing at (https://validator.w3.org/nu/#textarea)
+
+
+## Deployment
+
+My website is currently deployed on Github Pages - (https://jtuck15.github.io/milestone-project-1/)
+
+Web-link: (https://charliesinclair.github.io/milestone-project-1-monkees/)
+
+I was able to deploy the website here by going to my repository in which all the files are saved, clicking on settings at the top and scrolling down to the heading GitHub Pages. Underneath the heading there is a source and I chose master branch from the dropdown which allows you to host the website on GitHub Pages.
+
+
+## Credits
+
+### Content
+
+- The text for the section "About Us" on the home page was taken from the Wikipedia page on the Monkees and re-worded.  (https://en.wikipedia.org/wiki/The_Monkees)
+
+- Podcast information and text was from the Monkees official website- (https://www.monkees.com/listen)
+
+- The information given for each of the music videos from the music video sections was from ultimate classic rock- (https://ultimateclassicrock.com/top-monkees-songs/)
+
+- Tour dates- The Monkees official website (https://www.monkees.com/article/monkees-2019-tour-dates)
+
+- The Mike and Micky Show content was from the news section of the Monkees official website- (https://www.monkees.com/article/the-monkees-present-the-mike-micky-show)
+
+- The Archies meet the Monkees comic book information was from the Monkees official website- (https://www.monkees.com/article/pre-order-the-archies-meet-the-monkees-comic-book)
+
+### Media Content
+
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
