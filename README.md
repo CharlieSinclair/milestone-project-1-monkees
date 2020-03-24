@@ -42,7 +42,8 @@ pip install foobar
 These can be found in the README Folder, pictures are located in the folder labelled at Wire-Frames. 
 
 Follow link below: 
-[https://github.com/CharlieSinclair/milestone-project-1-monkees/tree/master/README%20Folder/Wire-frames]
+
+(https://github.com/CharlieSinclair/milestone-project-1-monkees/tree/master/README%20Folder/Wire-frames)
 
 ```python
 import foobar
@@ -52,10 +53,87 @@ foobar.pluralize('goose') # returns 'geese'
 foobar.singularize('phenomena') # returns 'phenomenon'
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Features
 
-Please make sure to update tests as appropriate.
+### Home page:  
+
+- Scrollable Cover style landing page, this simple but beautiful design takes up the whole screen to welcome the user with large bold header “The Monkees”. They can use the nav-bar to search for what they are looking for or scroll down to move the cover image out the way and explore the page. 
+
+- Sample music video - allows users to listen to iconic Monkees song.
+
+- “About Us” section with button that takes users to Events & Bookings page.
+
+- Tour dates- This has an inactive buy tickets button, which if back end was implemented could take user through to payment transactions. 
+
+### News page: 
+
+- Scrollable Cover style landing page, this simple but beautiful design that takes up the whole screen to welcome the user with the title “News”. They can use the nav-bar to search for what they are looking for or scroll down to move the cover image out the way and explore the page. 
+
+- About Us section with button that takes users to Events & Bookings page.
+
+- News and updates column- Users to go through the news and updates column to see all recent information regarding the Monkees. 
+
+- Tour dates button- takes user through to events and bookings page so they can see specific tour dates from the column talking about it. 
+
+- Podcasts button- takes users through to the listen page where they can hear podcasts by the Monkees. 
+
+- Tickets button- Users can go and buy tickets for the Mike and Micky Show. If back end functionality was completed it would take you through to processing payment. 
+
+- Pre-order button- Users can pre order “The Archies” comic book staring the Monkees. 
+
+### Listen:
+
+- Scrollable Cover style landing page, this simple but beautiful design takes up the whole screen to welcome the user with the title “Listen”. They can use the nav-bar to search for what they are looking for or scroll down to move the cover image out the way and explore the page. 
+
+- About Us section with button that takes users to Events & Bookings page.
+
+- Podcasts audio buttons- this gives users the chance to get to know the Monkees like never before by listening to them talking about their experiences in the band, current and past events while including some guest’s who collaborated with The Monkees too.
+
+### Music videos:
+
+- Scrollable Cover style landing page, this simple but beautiful design takes up the whole screen to welcome the user with the title “Music Videos”. They can use the nav-bar to search for what they are looking for or scroll down to move the cover image out the way and explore the page. 
+
+- About Us section with button that takes users to Events & Bookings page.
+
+- Music Videos - This allows the user to watch and get a feel of The Monkees in action. Able to scroll down the page and stream the music and watch videos. 
+
+- Each Music video container consists of a music video from their catalogue, which are some of the Monkees greatest hits. Along with some information regarding the songs.
+
+### Events and bookings: 
+
+- Scrollable Cover style landing page, this simple but beautiful design takes up the whole screen to welcome the user with the title “Events & Bookings”. They can use the nav-bar to search for what they are looking for or scroll down to move the cover image out the way and explore the page. 
+
+- Contact Us Submission form- This allows users to send messages to the site with any questions they may have or booking requests for the band. 
+
+- Events and tour dates container- This allows users to see all the upcoming tour dates of the monkees and the potential opportunity to buy tickets.
+
+### All Pages: 
+
+- Sign up Button- send a drop down box for the user to complete by inputting their name and email address. This will allow the user to receive news and updates. 
+
+- Follow and subscribe- Users to enter their name and email address to receive news and updates. 
+
+- Hamburger Nav-bar icon for responsive design- When viewed on smaller screens or mobile devices the nav-bar will turn into a fixed hamburger icon that open up and closes down when clicked.  
+
+- Social media links- This feature allows users to follow the band on facebook, twitter, instagram, youtube, spotify, soundcloud and tumblre.
+
+- Interactive Navbar- Buttons display smooth transition of colour when hovered for a positive emotional response and change mouse to pointer to indicate it’s selection. 
+
+
+## Technologies Used:
+
+- HTML5 - This was used as the layout to fully build the website.
+
+- CSS - This was used to style the website.
+
+- Bootstrap - This was used to get the layout up and running quickly and also use grids to help with the responsive design.
+
+- Google fonts – Access to a library of 977 free licensed font families to use.
+
+- JQuery - This was used to add read more buttons within some of the pages and also used for the back to top button to add a smooth scroll and fade
+
+- Font Awesome - Gives me scalable vector icons that can instantly be customized.
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
