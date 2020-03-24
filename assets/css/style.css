@@ -1,27 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700'); */
-
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700');
-/*----------------------------------------------------Colors*/
-
-/*----------------------------------------------------Navbar*/
-
-/*----------------------------------------------------Containers*/
-
-/*.callout-container {
-    height: 100vh;
-    
-    background: url('../images/themonkees2.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  
-  display: flex;
-  align-items: center; 
-  justify-content: center;
-  
-  position: relative;
-}*/
 
 .callout-container-music {
     align-items: center;
@@ -123,7 +100,6 @@
     text-align: center;
     text-decoration: none;
     color: white;
-    /*color: #d0d0d0; (off white #fafafa) */
 }
 
 
@@ -197,7 +173,7 @@
 .btn--green:focus,
 .btn--green:active:focus {
     background-color: #006400;
-    border-color: #0064009;
+    border-color: #006400;
     color: white;
 }
 
@@ -319,9 +295,6 @@
     background: #BDBD0A;
 }
 
-/*----------------------------------------------------Modal form-group {
-    color: #f8f8ff;
-} #f05f40*/
 
 /*----------------------------------------------------Video page*/
 
@@ -362,24 +335,6 @@
 .header-logo {
     cursor: pointer;
 }
-
-/*.header-logo {*/
-
-/*background: url('../images/themonkeeslogo.jpg');*/
-
-/*background-position: center;*/
-
-/*background-repeat: no-repeat;*/
-
-/*background-size: cover;*/
-
-/*height: 100%;*/
-
-/*width: 220px;*/
-
-/*border-radius: 30px;*/
-
-/*margin-right: 10px;*/
 
 .header-item-container {
     display: flex;
@@ -491,7 +446,6 @@
     justify-content: space-between;
     padding: 10px 10px 10px 10px;
     flex-flow: wrap;
-    /*padding: 10px 50px 10px 50px;*/
     align-items: stretch;
 }
 
@@ -570,12 +524,6 @@
     font-weight: bold;
 }
 
-/*.news-landing-cover-container {
-    height: 100vh;
-    background: url('../images/themonkees-tea-break.png') no-repeat fixed;
-     background-size: cover;
-} */
-
 .opaque-overlay {
     position: absolute;
     z-index: 10;
@@ -613,18 +561,6 @@
     background-color: transparent;
 }
 
-
-/* .news-image {
-    background: url('../assets/images/themonkees-farm.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 220px;
-    border-radius: 30px;
-    margin-right: 10px;
-} */
-
 .news-item-container {
     width: 100%;
     height: auto;
@@ -636,14 +572,6 @@
     padding-top: 60px;
     padding-bottom: 75px;
     background-color: transparent;
-
-
-    /*width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10px 10px 0px 10px; */
 }
 
 .news-item-image {
@@ -718,8 +646,6 @@
 }
 
 
-
-
 /*----------------------------------------------------Listening page*/
 
 .listen-landing-container {
@@ -736,7 +662,6 @@
     font-size: 16px;
     font-weight: bold;
 }
-
 
 .listen-container {
     padding-top: 60px;
@@ -819,15 +744,11 @@
     font-weight: bold;
 }
 
-
-
-
 /*----------------------------------------------------Burger-menu-icon*/
 
 .menu {
     margin: 0 30px 0 0;
 }
-
 
 .menu a:hover,
 .menu a:active,
@@ -844,8 +765,6 @@
     margin: 0 10px;
     line-height: 70px;
 }
-
-
 
 label {
     margin: 5px 40px 0 0;
@@ -881,7 +800,6 @@ label:active:focus {
         transition: 0.5s;
     }
 
-
     .menu {
         text-align: center;
         width: 100%;
@@ -910,8 +828,6 @@ label:active:focus {
 .navbar-fixed-top {
     position: fixed;
 }
-
-
 
 /*----------------------------------------------------Navbar active white setting */
 

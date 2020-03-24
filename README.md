@@ -160,7 +160,7 @@ All HTML files passed validation testing at (https://validator.w3.org/nu/#textar
 
 ## Deployment
 
-My website is currently deployed on Github Pages - (https://jtuck15.github.io/milestone-project-1/)
+My website is currently deployed on Github Pages. 
 
 **Web-link:** (https://charliesinclair.github.io/milestone-project-1-monkees/)
 
