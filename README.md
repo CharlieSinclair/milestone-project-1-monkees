@@ -31,27 +31,14 @@ To make sure the target audience accomplished these things when visiting my webs
 If you have noticed I have been particular about the colour scheme of the website, I wanted it to match the colours used by the band. Another detail is a unique image of the band on each page relating to that page. The use of logos and images throughout the website is to provoke a positive emotional response from its users, giving a good overall experience and being easy on the eye. 
 
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
 ## Wireframe Mock-ups
 
 These can be found in the README Folder, pictures are located in the folder labelled at Wire-Frames. 
 
-Follow link below: 
+**Follow link below:** 
 
 (https://github.com/CharlieSinclair/milestone-project-1-monkees/tree/master/README%20Folder/Wire-frames)
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
 
 ## Features
 
@@ -122,17 +109,17 @@ foobar.singularize('phenomena') # returns 'phenomenon'
 
 ## Technologies Used:
 
-- HTML5 - This was used as the layout to fully build the website.
+- **HTML5** - This was used as the layout to fully build the website.
 
-- CSS - This was used to style the website.
+- **CSS** - This was used to style the website.
 
-- Bootstrap - This was used to get the layout up and running quickly and also use grids to help with the responsive design.
+- **Bootstrap** - This was used to get the layout up and running quickly and also use grids to help with the responsive design.
 
-- Google fonts – Access to a library of 977 free licensed font families to use.
+- **Google fonts** – Access to a library of 977 free licensed font families to use.
 
-- JQuery - This was used to add read more buttons within some of the pages and also used for the back to top button to add a smooth scroll and fade
+- **jQuery** - This was used to add read more buttons within some of the pages and also used for the back to top button to add a smooth scroll and fade
 
-- Font Awesome - Gives me scalable vector icons that can instantly be customized.
+- **Font Awesome** - Gives me scalable vector icons that can instantly be customized.
 
 
 ## Testing
@@ -175,7 +162,7 @@ All HTML files passed validation testing at (https://validator.w3.org/nu/#textar
 
 My website is currently deployed on Github Pages - (https://jtuck15.github.io/milestone-project-1/)
 
-Web-link: (https://charliesinclair.github.io/milestone-project-1-monkees/)
+**Web-link:** (https://charliesinclair.github.io/milestone-project-1-monkees/)
 
 I was able to deploy the website here by going to my repository in which all the files are saved, clicking on settings at the top and scrolling down to the heading GitHub Pages. Underneath the heading there is a source and I chose master branch from the dropdown which allows you to host the website on GitHub Pages.
 
@@ -198,6 +185,96 @@ I was able to deploy the website here by going to my repository in which all the
 
 ### Media Content
 
+The photos used on this site were obtained from various sources and the references can be found below:
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+- Monkees Logo- https://whythebeatlesarestillrelevant.files.wordpress.com/2018/04/monkees1.jpg
+
+- Home page image- https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKW-wwbZ8P-68PND4tiT4zJ5bRzCCJT1H4vsGQyMIf9utorzqT
+
+- News page image- https://static.ffx.io/images/$zoom_0.772%2C$multiply_1%2C$ratio_1.777778%2C$width_1059%2C$x_133%2C$y_0/t_crop_custom/w_800/q_86%2Cf_auto/d298f95c1e56b13ce4c0a84820b9500e9d902cfd
+
+- News page tour dates image- https://i.dailymail.co.uk/i/pix/2016/05/20/17/343F691400000578-3601222-The_classic_band_have_just_begun_their_tour_Left_ro_right_Peter_-m-94_1463760154591.jpg
+
+- News page Mike and Micky show image- https://www.monkeeslivealmanac.com/uploads/7/8/9/5/7895731/dolenznesmithtour2019_orig.jpg
+
+- New page Archies and Monkees comic image- https://www.monkees.com/sites/default/files/styles/large/public/thearchies_4retvar-web.jpg?itok=XA0jrUg_
+
+- Rhino podcast image- https://www.monkees.com/sites/default/files/styles/large/public/the-rhino-podcast-1400x1400_2.jpg?itok=HIDyAi0X
+
+- Listen page header- https://www.bing.com/th?id=OSBI.DBG03d1ce7cf9674f4f906a023c07e9f865&pid=Api&rs=1
+
+- Music Videos page header- https://www.bing.com/th?id=OSBI.DBGeed5147de8c541f3a12042c74299bad0&pid=Api&rs=1
+
+- Events and Bookings page header- https://www.bing.com/th?id=OSBI.DBGd3d14580cd244a20a2b7077f98474189&pid=Api&rs=1
+
+- The videos used on this site were taken from YouTube:
+
+- I’m a believer- https://www.youtube.com/watch?v=rcnsao7Y0gk
+
+- Daydream Believer- https://www.youtube.com/watch?v=xvqeSJlgaNk
+
+- Porpoise song- https://www.youtube.com/watch?v=T75ZbWpiPIc
+
+- Valleri- https://www.youtube.com/watch?v=QWTa9CE51sA
+
+- Pleasant Valley Sunday- https://www.youtube.com/watch?v=klU01gYb6F0
+
+- Daily Nightly-https://www.youtube.com/watch?v=SCWRjWOowkc
+
+- Monkees podcasts with Rhino podcasts- These can be found on the Monkees official website https://www.monkees.com/listen
+
+### Acknowledgements 
+
+- Stackoverflow- This was useful in helping me in getting two divs side by side. https://stackoverflow.com/questions/5387392/how-to-get-these-two-divs-side-by-side
+
+- CSS-Tricks- This was useful when I was creating containers and trying to use felxbox effectively. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+- Code Institute- I used the information in the lessons to help with this project. https://codeinstitute.net/
+
+- W3schools.com - I used their tutorial to help me specifically  style texts in my website. https://www.w3schools.com/css/css_link.asp
+
+- Bootstrap - I used the grid, navbar and cover examples on Bootstrap to set up and create my own customized web pages page. https://getbootstrap.com/docs/3.3/getting-started/#download
+
+### References
+
+- https://en.wikipedia.org/wiki/The_Monkees
+
+- https://en.wikipedia.org/wiki/Micky_Dolenz
+
+- https://en.wikipedia.org/wiki/Michael_Nesmith
+
+- https://en.wikipedia.org/wiki/Peter_Tork
+
+- https://en.wikipedia.org/wiki/Davy_Jones_(musician)
+
+- https://www.monkees.net/
+
+- https://mentalfloss.com/article/66101/11-things-you-might-not-know-about-monkees
+
+- https://www.monkees.com/
+
+- https://www.billboard.com/articles/news/502980/the-monkees-10-biggest-hot-100-hits
+
+- https://ultimateclassicrock.com/top-monkees-songs/
+
+- https://learn.freecodecamp.org/
+
+- https://www.w3schools.com/css/css_link.asp
+
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+- https://stackoverflow.com/questions/5387392/how-to-get-these-two-divs-side-by-side
+
+- https://www.w3schools.com/tags/tag_img.asp
+
+- https://www.foals.co.uk/everythingnotsavedwillbelostpt2?ref=https%3A//www.google.com/
+
+- http://www.biffyclyro.com/
+
+- https://www.gunshipmusic.com/
+
+- https://www.rollingstones.com/
+
+- https://www.thewho.com/
+
+- https://www.steelpantherrocks.com/
