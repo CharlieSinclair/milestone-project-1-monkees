@@ -2,518 +2,483 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>Milestone Project/Monkees website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<title>Milestone Project/Monkees website</title>
 </head>
 
 <body>
 
-    <header>
-        <div class="bookings-landing-container">
-            <div class="opaque-overlay">
-                <div class="header-container">
+	<header>
+		<div class="bookings-landing-container">
+			<div class="opaque-overlay">
+				<div class="header-container">
+					<nav class="navbar-inverse navbar-fixed-top">
+						<label for="toggle">&#9776;</label>
+						<input type="checkbox" id="toggle" />
+						<div class="menu hidden-sm hidden-md hidden-lg active">
+							<a href="index.html"><i class="fa fa-home " aria-hidden="true"></i> Home</a>
+							<a href="news.html"><i class="fa fa-comment " aria-hidden="true"></i> News</a>
+							<a href="listen.html"><i class="fa fa-music " aria-hidden="true"></i> Listen</a>
+							<a href="music-video.html"><i class="fa fa-film " aria-hidden="true"></i> Music Videos</a>
+							<a href="booking.html"><i class="fa fa-book " aria-hidden="true"></i> Events & Bookings</a>
+						</div>
+					</nav>
+					<a href="index.html" class=" header-logo header-item hidden-xs"></a>
+					<div class="header-item hidden-xs">
+						<a href="news.html"><i class="fa fa-comment" aria-hidden="true"></i> News</a>
+					</div>
+					<div class="header-item hidden-xs">
+						<a href="listen.html"> <i class="fa fa-music" aria-hidden="true"></i> Listen</a>
+					</div>
+					<div class="header-item hidden-xs">
+						<a href="music-video.html"> <i class="fa fa-film hidden-xs" aria-hidden="true"></i> Music
+							videos</a>
+					</div>
+					<div class="header-item active hidden-xs">
+						<a href="booking.html"> <i class="fa fa-book hidden-xs" aria-hidden="true"></i> Events &
+							Bookings</a>
+					</div>
+				</div>
+				<div class="jumbo-container">
+					<section class="jumbotron text-center">
+						<h1>Events & Bookings</h1>
+						<hr class="block-divider block-divider--long-orange">
+						<p class="lead">Sign up today and start recieving album updates, latest news, tour announcments
+							and much more! </p>
+						<p class="btn btn-lg btn-success btn--cta btn--red" data-toggle='modal'
+							data-target='#SignUpModal'>Sign Up!</p>
+						<p class="text-muted"><small>Hey, Hey We're The Monkees!</small></p>
+						<div class="header-social">
+							<div>
+								<h5 class="uppercase general-sub">Connect With Us!</h5>
+								<ul class="list-inline social-links">
+									<li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
+									<li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+									<li><a target="_blank" href="#"><i class="fa fa-spotify"></i></a></li>
+									<li><a target="_blank" href="#"><i class="fa fa-soundcloud"></i></a></li>
+									<li><a target="_blank" href="#"><i class="fa fa-tumblr"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+	</header>
 
-                    <nav class="navbar-inverse navbar-fixed-top">
-                        <label for="toggle">&#9776;</label>
-                        <input type="checkbox" id="toggle" />
-                        <div class="menu hidden-sm hidden-md hidden-lg active">
-                            <a href="index.html"><i class="fa fa-home " aria-hidden="true"></i>  Home</a>
-                            <a href="news.html"><i class="fa fa-comment " aria-hidden="true"></i>  News</a>
-                            <a href="listen.html"><i class="fa fa-music " aria-hidden="true"></i>  Listen</a>
-                            <a href="music-video.html"><i class="fa fa-film " aria-hidden="true"></i>  Music Videos</a>
-                            <a href="booking.html"><i class="fa fa-book " aria-hidden="true"></i>  Events & Bookings</a>
-                        </div>
-                    </nav>
+	<div class="container-wrapper">
+		<div class="container about-container content-container">
+			<!-- About -->
+			<section class="about">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="about-header">
+							<h2 class="text-uppercase">Upcoming Events and Now taking Private Bookings:</h2>
+							<hr class="block-divider block-divider--short">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<p> Welcome to our Events and Bookings page! Look here to see all our upcoming tour dates so you
+							know where and when we might be playing near you.</p>
+						<p>Sign-up to start receiving updates and notifications so you dont miss us when were in town
+							playing near you!See Below for our most recent Tour Dates.</p>
+						<p>Most excitingly we are now offering private bookings to our fans for special occasions, such
+							as Weddings and Parties etc. We are offering an exclusive experience to re-live the sixties
+							by providing your own personal venue, playing
+							all our greatest hits and some new ones.</p>
+						<p>To make an enquiry please fill out the form below, a member of our booking tem will contact
+							you shortly.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="about-footer">
+						<div class="col-xs-12">
+							<h3>Now available for Private Bookings!</h3>
+							<strong><mark>-Complete the form below to request a Private Booking.</mark></strong>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.About -->
+		</div>
+	</div>
 
-                    <a href="index.html" class=" header-logo header-item hidden-xs"></a>
-
-                    <div class="header-item hidden-xs">
-                        <a href="news.html"><i class="fa fa-comment" aria-hidden="true"></i> News</a>
-                    </div>
-
-                    <div class="header-item hidden-xs">
-                        <a href="listen.html"> <i class="fa fa-music" aria-hidden="true"></i> Listen</a>
-                    </div>
-
-                    <div class="header-item hidden-xs">
-                        <a href="music-video.html"> <i class="fa fa-film hidden-xs" aria-hidden="true"></i> Music videos</a>
-                    </div>
-
-                    <div class="header-item active hidden-xs">
-                        <a href="booking.html"> <i class="fa fa-book hidden-xs" aria-hidden="true"></i> Events & Bookings</a>
-                    </div>
-
-                </div>
-                <div class="jumbo-container">
-                    <section class="jumbotron text-center">
-                        <h1>Events & Bookings</h1>
-                        <hr class="block-divider block-divider--long-orange">
-                        <p class="lead">Sign up today and start recieving album updates, latest news, tour announcments and much more! </p>
-                        <p class="btn btn-lg btn-success btn--cta btn--red" data-toggle='modal' data-target='#SignUpModal'>Sign Up!</p>
-                        <p class="text-muted"><small>Hey, Hey We're The Monkees!</small></p>
-
-                        <div class="header-social">
-                            <div>
-                                <h5 class="uppercase general-sub">Connect With Us!</h5>
-                                <ul class="list-inline social-links">
-                                    <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
-                                    <li><a target="_blank" href="#"><i class="fa fa-spotify"></i></a></li>
-                                    <li><a target="_blank" href="#"><i class="fa fa-soundcloud"></i></a></li>
-                                    <li><a target="_blank" href="#"><i class="fa fa-tumblr"></i></a></li>
-                                </ul>
+	<!-- Contact Us -->
+	<section class="contact-us-form">
+		<div class="container-wrapper container-wrapper--orange">
+			<div class="container contact-us-container content-container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="tourdates-header">
+							<h2 class="text-uppercase"> Contact Us to make a Private Booking:</h2>
+							<hr class="block-divider block-divider--short-white">
+						</div>
+					</div>
+				</div>
+				<form>
+					<div class="col-xs-12">
+						<div class="social-sign-up">
+							<div class="tourdates-header">
+								<h4 class="text-uppercase">NAME</h4>
+							</div>
+							<label for="exampleInputName3"></label>
+							<input type="text" class="form-control" id="exampleInputName3" placeholder="(Jane Doe)">
+							<div class="form-group">
+								<div class="tourdates-header">
+									<h4 class="text-uppercase">Email</h4>
+								</div>
+								<label for="exampleInputEmail3"></label>
+								<input type="email" class="form-control" id="exampleInputEmail3" placeholder="(jane.doe@example.com)">
                             </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </div>
-    </header>
+								<div class="from-group">
+									<div class="tourdates-header">
+										<h4 class="text-uppercase">Message</h4>
+									</div>
+									<label for="exampleInputText2"></label>
+									<textarea class="form-control" rows="8" id="exampleInputText2" placeholder="(Please write your message here)."></textarea>
+								</div>
+								<hr>
+								<button type="submit" class="btn btn-lg btn-success btn--green" data-toggle='modal' data-target='#'>Submit!</button>
+							</div>
+						</div>
+				</form>
+			</div>
+		</div>
+	</section>
+	<!-- /.Contact Us -->
 
+	<!-- Tourdates Row -->
+	<div class="tour-dates-container-wrapper">
+		<div class="container tour-dates-container">
+			<div class="tour-dates-header-container">
+				<div class="tour-dates-header-item">
+					<h2 class="text-uppercase">Events & Tour Dates:</h2>
+					<hr class="block-divider block-divider--short">
+				</div>
+			</div>
+			<div class="tour-dates-info-container">
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3><strong>Friday 01 March 2019</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3 class="address"><strong>Chevalier Theatre, Medford, MA, US</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
+					</blockquote>
+				</div>
+			</div>
+			<div class="tour-dates-info-container">
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3><strong>Saturday 02 March 2019</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3 class="address"><strong>Ovation Hall at Ocean Resort Casino, Atlantic City, NJ, US</strong>
+						</h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
+					</blockquote>
+				</div>
+			</div>
+			<div class="tour-dates-info-container">
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3><strong>Tuesday 05 March 2019</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3 class="address">
+							<strong>Hackensack Meridian Health Theatre at Count Basie Center, Red Bank, NJ, US</strong>
+						</h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
+					</blockquote>
+				</div>
+			</div>
+			<div class="tour-dates-info-container">
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3><strong>Friday 08 March 2019</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3 class="address"><strong>Paramount Theatre, Huntington, NY, US</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
+					</blockquote>
+				</div>
+			</div>
+			<div class="tour-dates-info-container">
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3><strong>Saturday 09 March 2019</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3 class="address"><strong>Beacon Theatre, New York, NY, US</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
+					</blockquote>
+				</div>
+			</div>
+			<div class="tour-dates-info-container">
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3><strong>Sunday 10 March 2019</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3 class="address"><strong>Palace Theatre, Albany, NY, US</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
+					</blockquote>
+				</div>
+			</div>
+			<div class="tour-dates-info-container">
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3><strong>Tuesday 12 March 2019</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3 class="address"><strong>Royal Oak Music Theatre, Royal Oak, MI, US</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#S'>Tickets</button>
+					</blockquote>
+				</div>
+			</div>
+			<div class="tour-dates-info-container">
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3><strong>Thursday 14 March 2019</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3 class="address"><strong>Mystic Lake Casino Hotel, Prior Lake, MN, US</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
+					</blockquote>
+				</div>
+			</div>
+			<div class="tour-dates-info-container">
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3><strong>Friday 15 March 2019</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3 class="address">
+							<strong>Silver Creek Event Center - Four Winds Casino, New Buffalo, MI, US</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
+					</blockquote>
+				</div>
+			</div>
+			<div class="tour-dates-info-container">
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3><strong>Saturday 08 June 2019</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3 class="address"><strong>Isaac Theatre Royal, Christchurch, New Zealand</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
+					</blockquote>
+				</div>
+			</div>
+			<div class="tour-dates-info-container">
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3><strong>Sunday 09 June 2019</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3 class="address"><strong>Great Hall, Auckland Town Hall, Auckland, New Zealand</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
+					</blockquote>
+				</div>
+			</div>
+			<div class="tour-dates-info-container">
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3><strong>Monday 10 June 2019</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3 class="address"><strong>Michael Fowler Centre, Wellington, New Zealand</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
+					</blockquote>
+				</div>
+			</div>
+			<div class="tour-dates-info-container">
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3><strong>Wednesday 12 June 2019</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<h3 class="address">
+							<strong>Queensland Performing Arts Centre (QPAC), Brisbane, QLD, Australia</strong></h3>
+					</blockquote>
+				</div>
+				<div class="tour-dates-info-item">
+					<blockquote class="quote">
+						<button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
+					</blockquote>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <div class="container-wrapper">
-        <div class="container about-container content-container">
-            <!-- About -->
-            <section class="about">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="about-header">
-                            <h2 class="text-uppercase">Upcoming Events and Now taking Private Bookings:</h2>
-                            <hr class="block-divider block-divider--short">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <p> Welcome to our Events and Bookings page! Look here to see all our upcoming tour dates so you know where and when we might be playing near you.</p>
-                        <p>Sign-up to start receiving updates and notifications so you dont miss us when were in town playing near you!See Below for our most recent Tour Dates.</p>
-                        <p>Most excitingly we are now offering private bookings to our fans for special occasions, such as Weddings and Parties etc. We are offering an exclusive experience to re-live the sixties by providing your own personal venue, playing
-                            all our greatest hits and some new ones.</p>
-                        <p>To make an enquiry please fill out the form below, a member of our booking tem will contact you shortly.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="about-footer">
-                        <div class="col-xs-12">
-                            <h3>Now available for Private Bookings!</h3>
-                            <strong><mark>-Complete the form below to request a Private Booking.</mark></strong>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- /.About -->
-        </div>
-    </div>
-
-    <!-- Contact Us -->
-    <section class="contact-us-form">
-        <div class="container-wrapper container-wrapper--orange">
-            <div class="container contact-us-container content-container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="tourdates-header">
-                            <h2 class="text-uppercase"> Contact Us to make a Private Booking:</h2>
-                            <hr class="block-divider block-divider--short-white">
-                        </div>
-                    </div>
-                </div>
-                <form>
-                    <div class="col-xs-12">
-                        <div class="social-sign-up">
-                            <div class="tourdates-header">
-                                <h4 class="text-uppercase">NAME</h4>
-                            </div>
-                            <label for="exampleInputName3"></label>
-                            <input type="text" class="form-control" id="exampleInputName3" placeholder="(Jane Doe)">
-                            <div class="form-group">
-                                <div class="tourdates-header">
-                                    <h4 class="text-uppercase">Email</h4>
+	<div class="container-wrapper container-wrapper--orange">
+		<div class="container footer-container content-container">
+			<!-- Footer -->
+			<footer class="footer">
+				<div class="row follow-and-subscribe">
+					<div class="col-xs-12">
+						<div class="follow-subscribe-header">
+							<h2 class="text-uppercase"> Follow and Subscribe</h2>
+							<hr class="block-divider block-divider--short-white">
+						</div>
+						<p class="footer-text">
+							<strong> For album updates, latest news, events, tour announcments and more!</strong></p>
+					</div>
+					<div class="col-xs-12">
+						<div class="social-sign-up">
+							<form class="form-inline">
+								<div class="form-group">
+									<label for="exampleInputName2"><strong>Name</strong></label>
+									<input type="text" class="form-control" id="exampleInputName2" placeholder="(Jane Doe)">
                                 </div>
-                                <label for="exampleInputEmail3"></label>
-                                <input type="email" class="form-control" id="exampleInputEmail3" placeholder="(jane.doe@example.com)">
-                            </div>
-                            <div class="from-group">
-                                <div class="tourdates-header">
-                                    <h4 class="text-uppercase">Message</h4>
+									<div class="form-group">
+										<label for="exampleInputEmail2"><strong>Email</strong></label>
+										<input type="email" class="form-control" id="exampleInputEmail2" placeholder="(jane.doe@example.com)">
                                 </div>
-                                <label for="exampleInputText2"></label>
-                                <textarea class="form-control" rows="8" id="exampleInputText2" placeholder="(Please write your message here)."></textarea>
-                            </div>
-                            <hr>
-                            <button type="submit" class="btn btn-lg btn-success btn--green" data-toggle='modal' data-target='#'>Submit!</button>
+										<button type="submit" class="btn btn-lg btn-success btn--green btn-follow" data-toggle='modal' data-target='#'>Follow & Subcribe Now!</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="row social-media">
+					<div class="col-xs-12">
+						<div class="social-media-header">
+							<h2>Social Media</h2>
+						</div>
+						<h5 class="uppercase general-sub">Connect With Us!</h5>
+						<ul class="list-inline social-links">
+							<li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+							<li><a target="_blank" href="#"><i class="fa fa-spotify"></i></a></li>
+							<li><a target="_blank" href="#"><i class="fa fa-soundcloud"></i></a></li>
+							<li><a target="_blank" href="#"><i class="fa fa-tumblr"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+			<!-- /.Footer -->
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="SignUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Sign Up for News Updates from The Monkees!</h4>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="email"></label>
+							<strong>Email address:</strong>
+							<input type="email" class="form-control" id="email" placeholder="Email">
+							<p class="help-block"><strong>We'll never share your Email address with anyone.</strong></p>
+						</div>
+						<div class="form-group">
+							<label for="name"></label>
+							<strong>Name:</strong>
+							<input type="text" class="form-control" id="name" placeholder="Name">
                         </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
-    <!-- /.Contact Us -->
+							<button type="submit" class="btn btn-success"><strong>Sign Up!</strong></button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 
-
-    <!-- Tourdates Row -->
-
-    <div class="tour-dates-container-wrapper">
-        <div class="container tour-dates-container">
-
-            <div class="tour-dates-header-container">
-                <div class="tour-dates-header-item">
-                    <h2 class="text-uppercase">Events & Tour Dates:</h2>
-                    <hr class="block-divider block-divider--short">
-                </div>
-            </div>
-
-            <div class="tour-dates-info-container">
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3><strong>Friday 01 March 2019</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3 class="address"><strong>Chevalier Theatre, Medford, MA, US</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
-                    </blockquote>
-                </div>
-            </div>
-
-            <div class="tour-dates-info-container">
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3><strong>Saturday 02 March 2019</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3 class="address"><strong>Ovation Hall at Ocean Resort Casino, Atlantic City, NJ, US</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
-                    </blockquote>
-                </div>
-            </div>
-
-            <div class="tour-dates-info-container">
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3><strong>Tuesday 05 March 2019</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3 class="address"><strong>Hackensack Meridian Health Theatre at Count Basie Center, Red Bank, NJ, US</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
-                    </blockquote>
-                </div>
-            </div>
-
-            <div class="tour-dates-info-container">
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3><strong>Friday 08 March 2019</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3 class="address"><strong>Paramount Theatre, Huntington, NY, US</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
-                    </blockquote>
-                </div>
-            </div>
-
-            <div class="tour-dates-info-container">
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3><strong>Saturday 09 March 2019</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3 class="address"><strong>Beacon Theatre, New York, NY, US</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
-                    </blockquote>
-                </div>
-            </div>
-
-            <div class="tour-dates-info-container">
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3><strong>Sunday 10 March 2019</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3 class="address"><strong>Palace Theatre, Albany, NY, US</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
-                    </blockquote>
-                </div>
-            </div>
-
-            <div class="tour-dates-info-container">
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3><strong>Tuesday 12 March 2019</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3 class="address"><strong>Royal Oak Music Theatre, Royal Oak, MI, US</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#S'>Tickets</button>
-                    </blockquote>
-                </div>
-            </div>
-
-            <div class="tour-dates-info-container">
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3><strong>Thursday 14 March 2019</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3 class="address"><strong>Mystic Lake Casino Hotel, Prior Lake, MN, US</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
-                    </blockquote>
-                </div>
-            </div>
-
-            <div class="tour-dates-info-container">
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3><strong>Friday 15 March 2019</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3 class="address"><strong>Silver Creek Event Center - Four Winds Casino, New Buffalo, MI, US</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
-                    </blockquote>
-                </div>
-            </div>
-
-            <div class="tour-dates-info-container">
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3><strong>Saturday 08 June 2019</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3 class="address"><strong>Isaac Theatre Royal, Christchurch, New Zealand</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
-                    </blockquote>
-                </div>
-            </div>
-
-            <div class="tour-dates-info-container">
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3><strong>Sunday 09 June 2019</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3 class="address"><strong>Great Hall, Auckland Town Hall, Auckland, New Zealand</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
-                    </blockquote>
-                </div>
-            </div>
-
-            <div class="tour-dates-info-container">
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3><strong>Monday 10 June 2019</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3 class="address"><strong>Michael Fowler Centre, Wellington, New Zealand</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
-                    </blockquote>
-                </div>
-            </div>
-
-            <div class="tour-dates-info-container">
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3><strong>Wednesday 12 June 2019</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <h3 class="address"><strong>Queensland Performing Arts Centre (QPAC), Brisbane, QLD, Australia</strong></h3>
-                    </blockquote>
-                </div>
-
-                <div class="tour-dates-info-item">
-                    <blockquote class="quote">
-                        <button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#'>Tickets</button>
-                    </blockquote>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-wrapper container-wrapper--orange">
-        <div class="container footer-container content-container">
-            <!-- Footer -->
-            <footer class="footer">
-                <div class="row follow-and-subscribe">
-                    <div class="col-xs-12">
-                        <div class="follow-subscribe-header">
-                            <h2 class="text-uppercase"> Follow and Subscribe</h2>
-                            <hr class="block-divider block-divider--short-white">
-                        </div>
-                        <p class="footer-text"><strong> For album updates, latest news, events, tour announcments and more!</strong></p>
-                    </div>
-                    <div class="col-xs-12">
-                        <div class="social-sign-up">
-                            <form class="form-inline">
-                                <div class="form-group">
-                                    <label for="exampleInputName2"><strong>Name</strong></label>
-                                    <input type="text" class="form-control" id="exampleInputName2" placeholder="(Jane Doe)">
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleInputEmail2"><strong>Email</strong></label>
-                                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="(jane.doe@example.com)">
-                                </div>
-                                <button type="submit" class="btn btn-lg btn-success btn--green btn-follow" data-toggle='modal' data-target='#'>Follow & Subcribe Now!</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row social-media">
-                    <div class="col-xs-12">
-                        <div class="social-media-header">
-                            <h2>Social Media</h2>
-                        </div>
-                        <h5 class="uppercase general-sub">Connect With Us!</h5>
-                        <ul class="list-inline social-links">
-                            <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fa fa-spotify"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fa fa-soundcloud"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fa fa-tumblr"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </footer>
-            <!-- /.Footer -->
-        </div>
-    </div>
-
-    <!-- Modal -->
-    <div class="modal fade" id="SignUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Sign Up for News Updates from The Monkees!</h4>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="email"></label>
-                            <strong>Email address:</strong>
-                            <input type="email" class="form-control" id="email" placeholder="Email">
-                            <p class="help-block"><strong>We'll never share your Email address with anyone.</strong></p>
-                        </div>
-                        <div class="form-group">
-                            <label for="name"></label>
-                            <strong>Name:</strong>
-                            <input type="text" class="form-control" id="name" placeholder="Name">
-                        </div>
-                        <button type="submit" class="btn btn-success"><strong>Sign Up!</strong></button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+	</script>
 </body>
 
 </html>

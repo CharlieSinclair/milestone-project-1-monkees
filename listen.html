@@ -2,263 +2,272 @@
 <html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale-1">
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>Milestone Project/Monkees website</title>
+	<meta name="viewport" content="width=device-width, initial-scale-1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		type="text/css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+		type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<title>Milestone Project/Monkees website</title>
 </head>
 
 <body>
 
-    <header>
-        <div class="listen-landing-container">
-            <div class="opaque-overlay">
-                <div class="header-container">
+	<header>
+		<div class="listen-landing-container">
+			<div class="opaque-overlay">
+				<div class="header-container">
+					<nav class="navbar-inverse navbar-fixed-top">
+						<label for="toggle">&#9776;</label>
+						<input type="checkbox" id="toggle" />
+						<div class="menu hidden-sm hidden-md hidden-lg active">
+							<a href="index.html"><i class="fa fa-home " aria-hidden="true"></i> Home</a>
+							<a href="news.html"><i class="fa fa-comment " aria-hidden="true"></i> News</a>
+							<a href="listen.html"><i class="fa fa-music " aria-hidden="true"></i> Listen</a>
+							<a href="music-video.html"><i class="fa fa-film " aria-hidden="true"></i> Music Videos</a>
+							<a href="booking.html"><i class="fa fa-book " aria-hidden="true"></i> Events & Bookings</a>
+						</div>
+					</nav>
+					<a href="index.html" class=" header-logo header-item hidden-xs"></a>
+					<div class="header-item hidden-xs">
+						<a href="news.html"><i class="fa fa-comment" aria-hidden="true"></i> News</a>
+					</div>
+					<div class="header-item active hidden-xs">
+						<a href="listen.html"> <i class="fa fa-music" aria-hidden="true"></i> Listen</a>
+					</div>
+					<div class="header-item hidden-xs">
+						<a href="music-video.html"> <i class="fa fa-film" aria-hidden="true"></i> Music videos</a>
+					</div>
+					<div class="header-item hidden-xs">
+						<a href="booking.html"> <i class="fa fa-book" aria-hidden="true"></i> Events & Bookings</a>
+					</div>
+				</div>
+				<div class="jumbo-container">
+					<section class="jumbotron text-center">
+						<h1>Listen</h1>
+						<hr class="block-divider block-divider--long-orange">
+						<p class="lead">Sign up today and start recieving album updates, latest news, tour announcments
+							and much more! </p>
+						<p><button class="btn btn-lg btn-success btn--cta btn--red" data-toggle='modal' data-target='#SignUpModal'>Sign Up!</button>
+						</p>
+						<p class="text-muted"><small>Hey, Hey We're The Monkees!</small></p>
+						<div class="header-social">
+							<div>
+								<h5 class="uppercase general-sub">Connect With Us!</h5>
+								<ul class="list-inline social-links">
+									<li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
+									<li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+									<li><a target="_blank" href="#"><i class="fa fa-spotify"></i></a></li>
+									<li><a target="_blank" href="#"><i class="fa fa-soundcloud"></i></a></li>
+									<li><a target="_blank" href="#"><i class="fa fa-tumblr"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+	</header>
 
-                    <nav class="navbar-inverse navbar-fixed-top">
-                        <label for="toggle">&#9776;</label>
-                        <input type="checkbox" id="toggle" />
-                        <div class="menu hidden-sm hidden-md hidden-lg active">
-                            <a href="index.html"><i class="fa fa-home " aria-hidden="true"></i>  Home</a>
-                            <a href="news.html"><i class="fa fa-comment " aria-hidden="true"></i>  News</a>
-                            <a href="listen.html"><i class="fa fa-music " aria-hidden="true"></i>  Listen</a>
-                            <a href="music-video.html"><i class="fa fa-film " aria-hidden="true"></i>  Music Videos</a>
-                            <a href="booking.html"><i class="fa fa-book " aria-hidden="true"></i>  Events & Bookings</a>
-                        </div>
-                    </nav>
+	<div class="container-wrapper">
+		<div class="container about-container content-container">
+			<!-- About -->
+			<section class="about">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="about-header">
+							<h2 class="text-uppercase">Listen to Music and Podcasts!</h2>
+							<hr class="block-divider block-divider--short">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<p>Welcome to our listening page. This is where we upload regular podcasts and music for all our
+							fans. Get all behind the scenes access about our time in the Monkees, as we have nostalgic
+							interviews and discuss all current "Monkees
+							news". Along with exclusive streaming of original recordings, only found on our site.</p>
+						<p>Tune in and listen!</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="about-footer">
+						<div class="col-xs-12">
+							<h3>Now available for Private Bookings!</h3>
+							<strong><mark>-See our events and bookings page for more details.</mark></strong>
+						</div>
+					</div>
+				</div>
+				<div class="tourdate-clickhere-container">
+					<div class="tourdate-clickhere-item"></div>
+					<p><a href="booking.html" class="btn btn-lg btn-success btn--cta btn--red">Click here!</a></p>
+					<p><strong><mark> To see further Events and make Private Bookings.</mark></strong></p>
+				</div>
+			</section>
+			<!-- /.About -->
+		</div>
+	</div>
 
-                    <a href="index.html" class=" header-logo header-item hidden-xs"></a>
+	<div class="container-wrapper--orange">
+		<div class="container video-container listen-container">
+			<!-- listen -->
+			<div class="listen-header-contaner">
+				<h2 class="text-uppercase">An Interview with Michael Nesmith, Part One (15 mins approx.)</h2>
+			</div>
+			<hr class="block-divider block-divider--short-white">
+			<div class="listen-picture-container">
+				<div id="micky-podcast"></div>
+			</div>
+			<div class="listen-text-container">
+				<p class="listen-text">Andrew Sandoval speaks with Nez about his Video Ranch 3D project, performing
+					live, his most recent album "Rays," his first solo album and the Sunset Strip scene in the '60s.</p>
+			</div>
+			<div class="audio-player-container">
+				<audio src="http://rhino.edgeboss.net/download/rhino/monkees/nesmithinterviewpart1of3.mp3" controls
+					loop></audio>
+			</div>
+		</div>
+	</div>
+	<!-- /.Listen -->
 
-                    <div class="header-item hidden-xs">
-                        <a href="news.html"><i class="fa fa-comment" aria-hidden="true"></i> News</a>
-                    </div>
+	<div class="container-wrapper--grey">
+		<div class="container video-container listen-container">
+			<!-- Listen -->
+			<div class="listen-header-contaner">
+				<h2 class="text-uppercase">An Interview with Michael Nesmith, Part Two (10 mins approx.)</h2>
+			</div>
+			<hr class="block-divider block-divider--short">
+			<div class="listen-picture-container">
+				<div id="micky-podcast-2"></div>
+			</div>
+			<div class="listen-text-container">
+				<p class="listen-text">Andrew Sandoval speaks with Nez about the Monkees' 1969 tour of America, their
+					backing band (Sam & The Goodtimers), a tour stop in Mexico City (1969), the Monkees' record setting
+					tours and album releases of 1966/67, the Summer of Love
+					and the motion picture soundtrack for Head.</p>
+			</div>
+			<div class="audio-player-container">
+				<audio src="http://rhino.edgeboss.net/download/rhino/monkees/nesmithinterviewpart2of3.mp3" controls
+					loop></audio>
+			</div>
+		</div>
+	</div>
+	<!-- /.Listen -->
 
-                    <div class="header-item active hidden-xs">
-                        <a href="listen.html"> <i class="fa fa-music" aria-hidden="true"></i> Listen</a>
-                    </div>
+	<div class="container-wrapper">
+		<div class="container video-container listen-container">
+			<!-- Listen -->
+			<div class="listen-header-contaner">
+				<h2 class="text-uppercase">An Interview with Michael Nesmith, Part Three (17 mins approx.)</h2>
+			</div>
+			<hr class="block-divider block-divider--short">
+			<div class="listen-picture-container">
+				<div id="micky-podcast-3"></div>
+			</div>
+			<div class="listen-text-container">
+				<p class="listen-text">Andrew Sandoval speaks with Nez about a new Monkees playlist he has compiled
+					called "Mike," the songs "A Little Bit Me, A Little Bit You" vs. "The Girl I Knew Somewhere,"
+					Rhino's Monkees Deluxe Edition bonus tracks "Nine Times Blue" and
+					"Propinquity," his Folk/Blues influences, his first post-Monkees release "Magnetic South" (1970) in
+					quadraphonic sound, as well as more on his Video Ranch 3D project.</p>
+			</div>
+			<div class="audio-player-container">
+				<audio src="http://rhino.edgeboss.net/download/rhino/monkees/nesmithinterviewpart3of3.mp3" controls
+					loop></audio>
+			</div>
+		</div>
+	</div>
+	<!-- /.Listen -->
 
-                    <div class="header-item hidden-xs">
-                        <a href="music-video.html"> <i class="fa fa-film" aria-hidden="true"></i> Music videos</a>
-                    </div>
-
-                    <div class="header-item hidden-xs">
-                        <a href="booking.html"> <i class="fa fa-book" aria-hidden="true"></i> Events & Bookings</a>
-                    </div>
-                </div>
-
-                <div class="jumbo-container">
-                    <section class="jumbotron text-center">
-                        <h1>Listen</h1>
-                        <hr class="block-divider block-divider--long-orange">
-                        <p class="lead">Sign up today and start recieving album updates, latest news, tour announcments and much more! </p>
-                        <p><button class="btn btn-lg btn-success btn--cta btn--red" data-toggle='modal' data-target='#SignUpModal'>Sign Up!</button></p>
-                        <p class="text-muted"><small>Hey, Hey We're The Monkees!</small></p>
-
-                        <div class="header-social">
-                            <div>
-                                <h5 class="uppercase general-sub">Connect With Us!</h5>
-                                <ul class="list-inline social-links">
-                                    <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
-                                    <li><a target="_blank" href="#"><i class="fa fa-spotify"></i></a></li>
-                                    <li><a target="_blank" href="#"><i class="fa fa-soundcloud"></i></a></li>
-                                    <li><a target="_blank" href="#"><i class="fa fa-tumblr"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <div class="container-wrapper">
-        <div class="container about-container content-container">
-            <!-- About -->
-            <section class="about">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="about-header">
-                            <h2 class="text-uppercase">Listen to Music and Podcasts!</h2>
-                            <hr class="block-divider block-divider--short">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <p>Welcome to our listening page. This is where we upload regular podcasts and music for all our fans. Get all behind the scenes access about our time in the Monkees, as we have nostalgic interviews and discuss all current "Monkees
-                            news". Along with exclusive streaming of original recordings, only found on our site.</p>
-                        <p>Tune in and listen!</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="about-footer">
-                        <div class="col-xs-12">
-                            <h3>Now available for Private Bookings!</h3>
-                            <strong><mark>-See our events and bookings page for more details.</mark></strong>
-                        </div>
-                    </div>
-                </div>
-                <div class="tourdate-clickhere-container">
-                    <div class="tourdate-clickhere-item"></div>
-                    <p><a href="booking.html" class="btn btn-lg btn-success btn--cta btn--red">Click here!</a></p>
-                    <p><strong><mark> To see further Events and make Private Bookings.</mark></strong></p>
-                </div>
-            </section>
-            <!-- /.About -->
-        </div>
-    </div>
-
-    <div class="container-wrapper--orange">
-        <div class="container video-container listen-container">
-            <!-- listen -->
-            <div class="listen-header-contaner">
-                <h2 class="text-uppercase">An Interview with Michael Nesmith, Part One (15 mins approx.)</h2>
-            </div>
-            <hr class="block-divider block-divider--short-white">
-            <div class="listen-picture-container">
-                <div id="micky-podcast"></div>
-            </div>
-            <div class="listen-text-container">
-                <p class="listen-text">Andrew Sandoval speaks with Nez about his Video Ranch 3D project, performing live, his most recent album "Rays," his first solo album and the Sunset Strip scene in the '60s.</p>
-            </div>
-            <div class="audio-player-container">
-                <audio src="http://rhino.edgeboss.net/download/rhino/monkees/nesmithinterviewpart1of3.mp3" controls loop></audio>
-            </div>
-        </div>
-    </div>
-    <!-- /.Listen -->
-
-    <div class="container-wrapper--grey">
-        <div class="container video-container listen-container">
-            <!-- Listen -->
-            <div class="listen-header-contaner">
-                <h2 class="text-uppercase">An Interview with Michael Nesmith, Part Two (10 mins approx.)</h2>
-            </div>
-            <hr class="block-divider block-divider--short">
-            <div class="listen-picture-container">
-                <div id="micky-podcast-2"></div>
-            </div>
-            <div class="listen-text-container">
-                <p class="listen-text">Andrew Sandoval speaks with Nez about the Monkees' 1969 tour of America, their backing band (Sam & The Goodtimers), a tour stop in Mexico City (1969), the Monkees' record setting tours and album releases of 1966/67, the Summer of Love
-                    and the motion picture soundtrack for Head.</p>
-            </div>
-            <div class="audio-player-container">
-                <audio src="http://rhino.edgeboss.net/download/rhino/monkees/nesmithinterviewpart2of3.mp3" controls loop></audio>
-            </div>
-        </div>
-    </div>
-    <!-- /.Listen -->
-
-    <div class="container-wrapper">
-        <div class="container video-container listen-container">
-            <!-- Listen -->
-            <div class="listen-header-contaner">
-                <h2 class="text-uppercase">An Interview with Michael Nesmith, Part Three (17 mins approx.)</h2>
-            </div>
-            <hr class="block-divider block-divider--short">
-            <div class="listen-picture-container">
-                <div id="micky-podcast-3"></div>
-            </div>
-            <div class="listen-text-container">
-                <p class="listen-text">Andrew Sandoval speaks with Nez about a new Monkees playlist he has compiled called "Mike," the songs "A Little Bit Me, A Little Bit You" vs. "The Girl I Knew Somewhere," Rhino's Monkees Deluxe Edition bonus tracks "Nine Times Blue" and
-                    "Propinquity," his Folk/Blues influences, his first post-Monkees release "Magnetic South" (1970) in quadraphonic sound, as well as more on his Video Ranch 3D project.</p>
-            </div>
-            <div class="audio-player-container">
-                <audio src="http://rhino.edgeboss.net/download/rhino/monkees/nesmithinterviewpart3of3.mp3" controls loop></audio>
-            </div>
-        </div>
-    </div>
-    <!-- /.Listen -->
-
-    <div class="container-wrapper container-wrapper--orange">
-        <div class="container footer-container content-container">
-            <!-- Footer -->
-            <footer class="footer">
-                <div class="row follow-and-subscribe">
-                    <div class="col-xs-12">
-                        <div class="follow-subscribe-header">
-                            <h2 class="text-uppercase"> Follow and Subscribe</h2>
-                            <hr class="block-divider block-divider--short-white">
-                        </div>
-                        <p class="footer-text"><strong> For album updates, latest news, events, tour announcments and more!</strong></p>
-                    </div>
-                    <div class="col-xs-12">
-                        <div class="social-sign-up">
-                            <form class="form-inline">
-                                <div class="form-group">
-                                    <label for="exampleInputName2"></label>
-                                    <input type="text" class="form-control" id="exampleInputName2" placeholder="(Jane Doe)">
+	<div class="container-wrapper container-wrapper--orange">
+		<div class="container footer-container content-container">
+			<!-- Footer -->
+			<footer class="footer">
+				<div class="row follow-and-subscribe">
+					<div class="col-xs-12">
+						<div class="follow-subscribe-header">
+							<h2 class="text-uppercase"> Follow and Subscribe</h2>
+							<hr class="block-divider block-divider--short-white">
+						</div>
+						<p class="footer-text">
+							<strong> For album updates, latest news, events, tour announcments and more!</strong></p>
+					</div>
+					<div class="col-xs-12">
+						<div class="social-sign-up">
+							<form class="form-inline">
+								<div class="form-group">
+									<label for="exampleInputName2"></label>
+									<input type="text" class="form-control" id="exampleInputName2" placeholder="(Jane Doe)">
                                 </div>
-                                <div class="form-group">
-                                    <label for="exampleInputEmail2"></label>
-                                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="(jane.doe@example.com)">
+									<div class="form-group">
+										<label for="exampleInputEmail2"></label>
+										<input type="email" class="form-control" id="exampleInputEmail2" placeholder="(jane.doe@example.com)">
                                 </div>
-                                <button type="submit" class="btn btn-lg btn-success btn--green btn-follow" data-toggle='modal' data-target='#SignUpModal'>Follow & Subcribe Now!</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+										<button type="submit" class="btn btn-lg btn-success btn--green btn-follow" data-toggle='modal' data-target='#SignUpModal'>Follow & Subcribe Now!</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="row social-media">
+					<div class="col-xs-12">
+						<div class="social-media-header">
+							<h2>Social Media</h2>
+						</div>
+						<h5 class="uppercase general-sub">Connect With Us!</h5>
+						<ul class="list-inline social-links">
+							<li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+							<li><a target="_blank" href="#"><i class="fa fa-spotify"></i></a></li>
+							<li><a target="_blank" href="#"><i class="fa fa-soundcloud"></i></a></li>
+							<li><a target="_blank" href="#"><i class="fa fa-tumblr"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+			<!-- /.Footer -->
+		</div>
+	</div>
 
-                <div class="row social-media">
-                    <div class="col-xs-12">
-                        <div class="social-media-header">
-                            <h2>Social Media</h2>
+	<!-- Modal -->
+	<div class="modal fade" id="SignUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Sign Up for News Updates from The Monkees!</h4>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="email"></label>
+							<strong>Email address:</strong>
+							<input type="email" class="form-control" id="email" placeholder="Email">
+							<p class="help-block"><strong>We'll never share your Email address with anyone.</strong></p>
+						</div>
+						<div class="form-group">
+							<label for="name"></label>
+							<strong>Name:</strong>
+							<input type="text" class="form-control" id="name" placeholder="Name">
                         </div>
-                        <h5 class="uppercase general-sub">Connect With Us!</h5>
-                        <ul class="list-inline social-links">
-                            <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fa fa-spotify"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fa fa-soundcloud"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fa fa-tumblr"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </footer>
-            <!-- /.Footer -->
-        </div>
-    </div>
+							<button type="submit" class="btn btn-success"><strong>Sign Up!</strong></button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <!-- Modal -->
-    <div class="modal fade" id="SignUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Sign Up for News Updates from The Monkees!</h4>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="email"></label>
-                            <strong>Email address:</strong>
-                            <input type="email" class="form-control" id="email" placeholder="Email">
-                            <p class="help-block"><strong>We'll never share your Email address with anyone.</strong></p>
-                        </div>
-                        <div class="form-group">
-                            <label for="name"></label>
-                            <strong>Name:</strong>
-                            <input type="text" class="form-control" id="name" placeholder="Name">
-                        </div>
-                        <button type="submit" class="btn btn-success"><strong>Sign Up!</strong></button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+	</script>
 </body>
 
 </html>
