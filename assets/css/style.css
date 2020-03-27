@@ -635,7 +635,7 @@
 
 @media only screen and (max-width: 320px) {
     #tour-image {
-        height: 500px;
+        height: 470px;
         width: 320px;
     }
     #micky-podcast {
@@ -651,18 +651,18 @@
         width: 320px; 
     }
     #show-image { 
-        height: 500px;
+        height: 600px;
         width: 320px; 
     }
     #comic-image {
-        height: 500px;
+        height: 600px;
         width: 320px;
     }
 }
 
 @media only screen and (min-width: 321px) and (max-width:360px) {
 #tour-image {
-        height: 500px;
+        height: 470px;
         width: 360px;
     }
     #micky-podcast {
@@ -678,18 +678,18 @@
         width: 360px; 
     }
     #show-image { 
-        height: 500px;
+        height: 600px;
         width: 360px; 
     }
     #comic-image {
-        height: 500px;
+        height: 600px;
         width: 360px;
     }
 }
 
 @media only screen and (min-width: 361px) and (max-width:375px) {
 #tour-image {
-        height: 500px;
+        height: 470px;
         width: 375px;
     }
     #micky-podcast {
@@ -705,18 +705,18 @@
         width: 375px; 
     }
     #show-image { 
-        height: 500px;
+        height: 600px;
         width: 375px; 
     }
     #comic-image {
-        height: 500px;
+        height: 600px;
         width: 375px;
     }
 }
 
 @media only screen and (min-width: 376px) and (max-width:411px) {
 #tour-image {
-        height: 500px;
+        height: 470px;
         width: 411px;
     }
     #micky-podcast {
@@ -732,18 +732,18 @@
         width: 411px; 
     }
     #show-image { 
-        height: 500px;
+        height: 600px;
         width: 411px; 
     }
     #comic-image {
-        height: 500px;
+        height: 600px;
         width: 411px;
     }
 }
 
 @media only screen and (min-width: 412px) and (max-width:414px) {
 #tour-image {
-        height: 500px;
+        height: 470px;
         width: 414px;
     }
     #micky-podcast {
@@ -759,19 +759,19 @@
         width: 414px; 
     }
     #show-image { 
-        height: 500px;
+        height: 600px;
         width: 414px; 
     }
     #comic-image {
-        height: 500px;
+        height: 600px;
         width: 414px;
     }
 }
 
-@media only screen and (min-width: 415px) and (max-width:768px) {
+@media only screen and (min-width: 415px) and (max-width:568px) {
 #tour-image {
-        height: 500px;
-        width: 700px;
+        height: 470px;
+        width: 568px;
     }
     #micky-podcast {
         height: 500px;
@@ -786,39 +786,228 @@
         width: 500px; 
     }
     #show-image { 
+        height: 600px;
+        width: 568px; 
+    }
+    #comic-image {
+        height: 600px;
+        width: 568px;
+    }
+}
+
+@media only screen and (min-width: 569px) and (max-width:640px) {
+#tour-image {
+        height: 470px;
+        width: 640px;
+    }
+    #micky-podcast {
         height: 500px;
+        width: 500px; 
+    }
+    #micky-podcast-2 {
+        height: 500px;
+        width: 500px; 
+    }
+    #micky-podcast-3 {
+        height: 500px;
+        width: 500px; 
+    }
+    #show-image { 
+        height: 600px;
+        width: 640px; 
+    }
+    #comic-image {
+        height: 600px;
+        width: 568px;
+    }
+}
+
+@media only screen and (min-width: 641px) and (max-width:667px) {
+#tour-image {
+        height: 470px;
+        width: 640px;
+    }
+    #micky-podcast {
+        height: 500px;
+        width: 500px; 
+    }
+    #micky-podcast-2 {
+        height: 500px;
+        width: 500px; 
+    }
+    #micky-podcast-3 {
+        height: 500px;
+        width: 500px; 
+    }
+    #show-image { 
+        height: 600px;
+        width: 667px; 
+    }
+    #comic-image {
+        height: 600px;
+        width: 568px;
+    }
+}
+
+@media only screen and (min-width: 668px) and (max-width:731px) {
+#tour-image {
+        height: 470px;
+        width: 640px;
+    }
+    #micky-podcast {
+        height: 500px;
+        width: 500px; 
+    }
+    #micky-podcast-2 {
+        height: 500px;
+        width: 500px; 
+    }
+    #micky-podcast-3 {
+        height: 500px;
+        width: 500px; 
+    }
+    #show-image { 
+        height: 600px;
+        width: 731px; 
+    }
+    #comic-image {
+        height: 600px;
+        width: 568px;
+    }
+}
+
+@media only screen and (min-width: 732px) and (max-width:736px) {
+#tour-image {
+        height: 470px;
+        width: 640px;
+    }
+    #micky-podcast {
+        height: 500px;
+        width: 500px; 
+    }
+    #micky-podcast-2 {
+        height: 500px;
+        width: 500px; 
+    }
+    #micky-podcast-3 {
+        height: 500px;
+        width: 500px; 
+    }
+    #show-image { 
+        height: 600px;
+        width: 736px; 
+    }
+    #comic-image {
+        height: 600px;
+        width: 568px;
+    }
+}
+
+@media only screen and (min-width: 737px) and (max-width:768px) {
+#tour-image {
+        height: 470px;
+        width: 640px;
+    }
+    #micky-podcast {
+        height: 500px;
+        width: 500px; 
+    }
+    #micky-podcast-2 {
+        height: 500px;
+        width: 500px; 
+    }
+    #micky-podcast-3 {
+        height: 500px;
+        width: 500px; 
+    }
+    #show-image { 
+        height: 600px;
         width: 768px; 
     }
     #comic-image {
-        height: 500px;
-        width: 500px;
+        height: 600px;
+        width: 568px;
     }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 769px) and (max-width:812px) {
 #tour-image {
-        height: 500px;
-        width: 700px;
+        height: 470px;
+        width: 640px;
     }
     #micky-podcast {
         height: 500px;
-        width: 700px; 
+        width: 500px; 
     }
     #micky-podcast-2 {
         height: 500px;
-        width: 700px; 
+        width: 500px; 
     }
     #micky-podcast-3 {
         height: 500px;
-        width: 700px; 
+        width: 500px; 
     }
     #show-image { 
-        height: 500px;
-        width: 1030px; 
+        height: 600px;
+        width: 812px; 
     }
     #comic-image {
+        height: 600px;
+        width: 568px;
+    }
+}
+
+@media only screen and (min-width: 813px) and (max-width:1023px) {
+#tour-image {
+        height: 470px;
+        width: 640px;
+    }
+    #micky-podcast {
         height: 500px;
-        width: 500px;
+        width: 500px; 
+    }
+    #micky-podcast-2 {
+        height: 500px;
+        width: 500px; 
+    }
+    #micky-podcast-3 {
+        height: 500px;
+        width: 500px; 
+    }
+    #show-image { 
+        height: 600px;
+        width: 813px; 
+    }
+    #comic-image {
+        height: 600px;
+        width: 568px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+#tour-image {
+        height: 470px;
+        width: 640px;
+    }
+    #micky-podcast {
+        height: 500px;
+        width: 500px; 
+    }
+    #micky-podcast-2 {
+        height: 500px;
+        width: 500px; 
+    }
+    #micky-podcast-3 {
+        height: 500px;
+        width: 500px; 
+    }
+    #show-image { 
+        height: 600px;
+        width: 1024px; 
+    }
+    #comic-image {
+        height: 600px;
+        width: 568px;
     }
 }
 
