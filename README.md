@@ -148,10 +148,9 @@ I have thoroughly tested this website and was unable to find any broken links wi
 
 ## Issues/Bugs:
 
-I had a major issue with the nav-bar repositioning for different responsive design sizes on some devices; however this has since been rectified through research along with trial and error. However when using my hamburger Icon this works well on most platforms, however when testing in chrome tools the hamburger icon doesn’t show up for some XS to SM devices in the “News” and “Listen” page of the website. Although it’s worth mentioning that none of these errors show up when changing the screen size manually from large to extra small in Chrome tools when in inspection mode.  Positioning of some images on these two pages when breaking down to mobile devices can be focused, causing some loss picture quality, cutting images off in news page and listen page. However like mentioned earlier when altering the screen size manually when in inspection mode from large to extra small these bugs don’t show up. Only when in inspection mode and extra small screen device is selected in toggle device toolbar. 
+I had a major issue with the nav-bar repositioning for different responsive design sizes on some devices; however this has since been rectified through research along with trial and error. 
 
-To concluder there is one bug that I was unable to resolve, being the hamburger icon pushed to the far right hand side of the screen only on news and listen webpage. This only happens when viewed in extra small or small devices.  This is something I will look to resolve and fix in the future.  
-
+Another issue/bug I had was the size of the images on the “News” and “Listening” webpages, where the hamburger Icon was being pushed off the page to the far right. This didn’t break the page but instead left a large gap that the user would have to scroll thrpugh blank space to the right in order to select the hamburger icon, which aesthetically wasn’t good. This only happened on these two pages and on smaller mobile devices in responsive design XS to SM devices. However this was resolved when I found out it was the pixel width on these images that was causing the problem. As when in inspection mode the errors didn’t show, only when selecting specific small mobile devices did the issue arise. To correct the bug I made media queries for each of the mobile device break points, adjusting image width accordingly.  This should now run smoothly as the image pixel width is re-sized for each screen size. 
 
 ## Validation
 
