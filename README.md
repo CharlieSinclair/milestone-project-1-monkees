@@ -209,7 +209,7 @@ The photos, video's and audio used on my site were obtained from various sources
 
 - [Events and Bookings page header.](https://www.bing.com/th?id=OSBI.DBGd3d14580cd244a20a2b7077f98474189&pid=Api&rs=1)
 
-- The videos used on this site were taken from YouTube:
+  The videos used on this site were taken from YouTube:
 
 - [I’m a believer.](https://www.youtube.com/watch?v=rcnsao7Y0gk)
 
