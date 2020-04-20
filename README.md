@@ -37,7 +37,7 @@ These can be found in the README Folder, pictures are located in the folder labe
 
 **Follow link below:** 
 
-(https://github.com/CharlieSinclair/milestone-project-1-monkees/tree/master/README%20Folder/Wire-frames)
+[](https://github.com/CharlieSinclair/milestone-project-1-monkees/tree/master/README%20Folder/Wire-frames)
 
 
 ## Features
@@ -278,3 +278,7 @@ The photos used on this site were obtained from various sources and the referenc
 - https://www.thewho.com/
 
 - https://www.steelpantherrocks.com/
+
+- https://www.w3schools.com/jquery/event_submit.asp
+
+- https://www.w3schools.com/jsref/event_onsubmit.asp
