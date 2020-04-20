@@ -162,7 +162,7 @@ All HTML files passed validation testing at [Nu Html checker.](https://validator
 
 My website is currently deployed on Github Pages. 
 
-**Web-link:** (https://charliesinclair.github.io/milestone-project-1-monkees/)
+**Web-link:** [My Monkees official website. ](https://charliesinclair.github.io/milestone-project-1-monkees/)
 
 I was able to deploy the website here by going to my repository in which all the files are saved, clicking on settings at the top and scrolling down to the heading GitHub Pages. Underneath the heading there is a source and I chose master branch from the dropdown which allows you to host the website on GitHub Pages.
 
@@ -171,61 +171,63 @@ I was able to deploy the website here by going to my repository in which all the
 
 ### Content
 
-- The text for the section "About Us" on the home page was taken from the Wikipedia page on the Monkees and re-worded.  (https://en.wikipedia.org/wiki/The_Monkees)
+- The text for the section "About Us" on the home page was taken from the [Wikipedia page on the Monkees and re-worded.](https://en.wikipedia.org/wiki/The_Monkees)
 
-- Podcast information and text was from the Monkees official website- (https://www.monkees.com/listen)
+- Podcast information and text was from the [Monkees official website.](https://www.monkees.com/listen)
 
-- The information given for each of the music videos from the music video sections was from ultimate classic rock- (https://ultimateclassicrock.com/top-monkees-songs/)
+- The information given for each of the music videos from the music video sections was from [ultimate classic rock.](https://ultimateclassicrock.com/top-monkees-songs/)
 
-- Tour dates- The Monkees official website (https://www.monkees.com/article/monkees-2019-tour-dates)
+- Tour dates- [The Monkees official website.](https://www.monkees.com/article/monkees-2019-tour-dates)
 
-- The Mike and Micky Show content was from the news section of the Monkees official website- (https://www.monkees.com/article/the-monkees-present-the-mike-micky-show)
+- The Mike and Micky Show content was from the [news section of the Monkees official website.](https://www.monkees.com/article/the-monkees-present-the-mike-micky-show)
 
-- The Archies meet the Monkees comic book information was from the Monkees official website- (https://www.monkees.com/article/pre-order-the-archies-meet-the-monkees-comic-book)
+- The Archies meet the Monkees comic book information was from the [Monkees official website.](https://www.monkees.com/article/pre-order-the-archies-meet-the-monkees-comic-book)
 
 ### Media Content
 
 The photos used on this site were obtained from various sources and the references can be found below:
 
-- Monkees Logo- https://whythebeatlesarestillrelevant.files.wordpress.com/2018/04/monkees1.jpg
+- [Monkees Logo.](https://whythebeatlesarestillrelevant.files.wordpress.com/2018/04/monkees1.jpg)
 
-- Home page image- https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKW-wwbZ8P-68PND4tiT4zJ5bRzCCJT1H4vsGQyMIf9utorzqT
+- [Home page image.](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKW-wwbZ8P-68PND4tiT4zJ5bRzCCJT1H4vsGQyMIf9utorzqT)
 
-- News page image- https://static.ffx.io/images/$zoom_0.772%2C$multiply_1%2C$ratio_1.777778%2C$width_1059%2C$x_133%2C$y_0/t_crop_custom/w_800/q_86%2Cf_auto/d298f95c1e56b13ce4c0a84820b9500e9d902cfd
+- [News page image.](https://static.ffx.io/images/$zoom_0.772%2C$multiply_1%2C$ratio_1.777778%2C$width_1059%2C$x_133%2C$y_0/t_crop_custom/w_800/q_86%2Cf_auto/d298f95c1e56b13ce4c0a84820b9500e9d902cfd)
 
-- News page tour dates image- https://i.dailymail.co.uk/i/pix/2016/05/20/17/343F691400000578-3601222-The_classic_band_have_just_begun_their_tour_Left_ro_right_Peter_-m-94_1463760154591.jpg
+- [News page tour dates image.](https://i.dailymail.co.uk/i/pix/2016/05/20/17/343F691400000578-3601222-The_classic_band_have_just_begun_their_tour_Left_ro_right_Peter_-m-94_1463760154591.jpg)
 
-- News page Mike and Micky show image- https://www.monkeeslivealmanac.com/uploads/7/8/9/5/7895731/dolenznesmithtour2019_orig.jpg
+- [News page Mike and Micky show image.](https://www.monkeeslivealmanac.com/uploads/7/8/9/5/7895731/dolenznesmithtour2019_orig.jpg)
 
-- New page Archies and Monkees comic image- https://www.monkees.com/sites/default/files/styles/large/public/thearchies_4retvar-web.jpg?itok=XA0jrUg_
+- [New page Archies and Monkees comic image.](https://www.monkees.com/sites/default/files/styles/large/public/thearchies_4retvar-web.jpg?itok=XA0jrUg_)
 
-- Rhino podcast image- https://www.monkees.com/sites/default/files/styles/large/public/the-rhino-podcast-1400x1400_2.jpg?itok=HIDyAi0X
+- [Rhino podcast image.](https://www.monkees.com/sites/default/files/styles/large/public/the-rhino-podcast-1400x1400_2.jpg?itok=HIDyAi0X)
 
-- Listen page header- https://www.bing.com/th?id=OSBI.DBG03d1ce7cf9674f4f906a023c07e9f865&pid=Api&rs=1
+- [Listen page header.](https://www.bing.com/th?id=OSBI.DBG03d1ce7cf9674f4f906a023c07e9f865&pid=Api&rs=1)
 
-- Music Videos page header- https://www.bing.com/th?id=OSBI.DBGeed5147de8c541f3a12042c74299bad0&pid=Api&rs=1
+- [Music Videos page header.](https://www.bing.com/th?id=OSBI.DBGeed5147de8c541f3a12042c74299bad0&pid=Api&rs=1)
 
-- Events and Bookings page header- https://www.bing.com/th?id=OSBI.DBGd3d14580cd244a20a2b7077f98474189&pid=Api&rs=1
+- [Events and Bookings page header.](https://www.bing.com/th?id=OSBI.DBGd3d14580cd244a20a2b7077f98474189&pid=Api&rs=1)
 
 - The videos used on this site were taken from YouTube:
 
-- I’m a believer- https://www.youtube.com/watch?v=rcnsao7Y0gk
+- [I’m a believer.](https://www.youtube.com/watch?v=rcnsao7Y0gk)
 
-- Daydream Believer- https://www.youtube.com/watch?v=xvqeSJlgaNk
+- [Daydream Believer.](https://www.youtube.com/watch?v=xvqeSJlgaNk)
 
-- Porpoise song- https://www.youtube.com/watch?v=T75ZbWpiPIc
+- [Porpoise song.](https://www.youtube.com/watch?v=T75ZbWpiPIc)
 
-- Valleri- https://www.youtube.com/watch?v=QWTa9CE51sA
+- [Valleri.](https://www.youtube.com/watch?v=QWTa9CE51sA)
 
-- Pleasant Valley Sunday- https://www.youtube.com/watch?v=klU01gYb6F0
+- [Pleasant Valley Sunday.](https://www.youtube.com/watch?v=klU01gYb6F0)
 
-- Daily Nightly-https://www.youtube.com/watch?v=SCWRjWOowkc
+- [Daily Nightly.](https://www.youtube.com/watch?v=SCWRjWOowkc)
 
-- Monkees podcasts with Rhino podcasts- These can be found on the Monkees official website https://www.monkees.com/listen
+- Monkees podcasts with Rhino podcasts:
+
+- These can be found on the [Monkees official website.](https://www.monkees.com/listen)
 
 ### Acknowledgements 
 
-- Stackoverflow- This was useful in helping me in getting two divs side by side. https://stackoverflow.com/questions/5387392/how-to-get-these-two-divs-side-by-side
+- [Stackoverflow](https://stackoverflow.com/questions/5387392/how-to-get-these-two-divs-side-by-side)- This was useful in helping me in getting two divs side by side.
 
 - CSS-Tricks- This was useful when I was creating containers and trying to use felxbox effectively. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
