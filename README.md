@@ -126,6 +126,8 @@ These can be found in the README Folder, pictures are located in the folder labe
 
 I have thoroughly tested this website and was unable to find any broken links within it. I have also tried the button functionality on contact forms and buttons which all work, only needing the back end to be completed. 
 
+Google Chrome Developer Tools has been integral in order to inspect HTML element and its CSS, Debug code and to test the website responsiveness.
+
 ### Devices Used:
 
 - Samsung Galaxy S5
