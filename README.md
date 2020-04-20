@@ -155,7 +155,7 @@ This should now run smoothly as the image pixel width is re-sized for each scree
 
 ## Validation
 
-All HTML files passed validation testing at (https://validator.w3.org/nu/#textarea)
+All HTML files passed validation testing at [Nu Html checker.](https://validator.w3.org/nu/#textarea)
 
 
 ## Deployment
