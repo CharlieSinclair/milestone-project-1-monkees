@@ -185,7 +185,7 @@ I was able to deploy the website here by going to my repository in which all the
 
 ### Media Content
 
-The photos used on this site were obtained from various sources and the references can be found below:
+The photos, video's and audio used on my site were obtained from various sources, links to those references can be found below:
 
 - [Monkees Logo.](https://whythebeatlesarestillrelevant.files.wordpress.com/2018/04/monkees1.jpg)
 
@@ -221,21 +221,19 @@ The photos used on this site were obtained from various sources and the referenc
 
 - [Daily Nightly.](https://www.youtube.com/watch?v=SCWRjWOowkc)
 
-- Monkees podcasts with Rhino podcasts:
-
-- These can be found on the [Monkees official website.](https://www.monkees.com/listen)
+- Monkees podcasts with Rhino podcasts can be found on the [Monkees official website.](https://www.monkees.com/listen)
 
 ### Acknowledgements 
 
-- [Stackoverflow](https://stackoverflow.com/questions/5387392/how-to-get-these-two-divs-side-by-side)- This was useful in helping me in getting two divs side by side.
+- [Stackoverflow](https://stackoverflow.com/questions/5387392/how-to-get-these-two-divs-side-by-side) was useful in helping me in getting two divs side by side.
 
-- CSS-Tricks- This was useful when I was creating containers and trying to use felxbox effectively. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) was useful when I was creating containers and trying to use felxbox effectively. 
 
-- Code Institute- I used the information in the lessons to help with this project. https://codeinstitute.net/
+- [Code Institute](https://codeinstitute.net/), I used the information in the lessons to help with this project. 
 
-- W3schools.com - I used their tutorial to help me specifically  style texts in my website. https://www.w3schools.com/css/css_link.asp
+- [W3schools.com](https://www.w3schools.com/css/css_link.asp) was very helpful, where I used their tutorial to help me specifically style texts in my website. 
 
-- Bootstrap - I used the grid, navbar and cover examples on Bootstrap to set up and create my own customized web pages page. https://getbootstrap.com/docs/3.3/getting-started/#download
+- [Bootstrap](https://getbootstrap.com/docs/3.3/getting-started/#download) was used for grid, navbar and cover examples on Bootstrap to set up and create my own customized web pages. 
 
 ### References
 
