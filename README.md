@@ -37,7 +37,7 @@ These can be found in the README Folder, pictures are located in the folder labe
 
 **Follow link below:** 
 
-[Wireframes GitHub link](https://github.com/CharlieSinclair/milestone-project-1-monkees/tree/master/README%20Folder/Wire-frames)
+[Wireframes GitHub link](https://github.com/CharlieSinclair/milestone-project-1-monkees/tree/master/Wire-frames)
 
 
 ## Features
