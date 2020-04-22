@@ -113,6 +113,8 @@ These can be found in the README Folder, pictures are located in the folder labe
 
 - **CSS** - This was used to style the website.
 
+- **JavaScript** - Enables me to add validation to my forms and sign up buttons.
+
 - **Bootstrap** - This was used to get the layout up and running quickly and also use grids to help with the responsive design.
 
 - **Google fonts** – Access to a library of 977 free licensed font families to use.
